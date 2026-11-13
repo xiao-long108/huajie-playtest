@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "publisher": "Microsoft / Rocketbox",
+  "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+  "license": "MIT",
+  "licenseFile": "/assets/licenses/microsoft-rocketbox-LICENSE.txt",
+  "licenseSha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352",
+  "sourceArchive": "art-source/characters/rocketbox/source-lock.json",
+  "buildScript": "scripts/convert-rocketbox.py",
+  "totalBytes": 5430836,
+  "totalGzipBytes": 4674743,
+  "models": [
+    {
+      "id": "resident-woman",
+      "url": "/assets/models/resident-woman.glb",
+      "name": "Female_Adult_05",
+      "publisher": "Microsoft / Rocketbox",
+      "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+      "sourcePath": "Assets/Avatars/Adults/Female_Adult_05/Export/Female_Adult_05.fbx",
+      "sourceSha256": "fffbb46af5f0f0323abad47f04f6067ec6f8757a345d5e53804601bbb77feca4",
+      "commit": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+      "license": "MIT",
+      "licenseFile": "/assets/licenses/microsoft-rocketbox-LICENSE.txt",
+      "licenseEvidenceSha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352",
+      "bytes": 2869840,
+      "gzipBytes": 2443660,
+      "sha256": "9dcad3ed8a3523f6f5cd82a3cc28575e40770f474c3c32c4b24d4518671b57b1",
+      "triangles": 8288,
+      "bounds": {
+        "min": [
+          -0.6086586117744446,
+          -0.00033223984064534307,
+          -0.1599234938621521
+        ],
+        "max": [
+          0.6086586117744446,
+          1.7358461618423462,
+          0.126274973154068
+        ],
+        "size": [
+          1.2173172235488892,
+          1.7361784016829915,
+          0.2861984670162201
+        ]
+      },
+      "skins": 1,
+      "joints": 80,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Sitting"
+      ],
+      "animationDurations": {
+        "Idle": 2.7,
+        "Walk": 1.3,
+        "Sitting": 19.25
+      },
+      "animationRoles": {
+        "idle": "Idle",
+        "walk": "Walk",
+        "sit": "Sitting"
+      },
+      "rig": {
+        "head": "Head",
+        "hips": "Hips",
+        "leftHand": "Palm.L",
+        "rightHand": "Palm.R",
+        "forward": "+Z",
+        "up": "+Y"
+      },
+      "materialPolicy": "preserve-authored-pbr",
+      "loadPolicy": "on-demand",
+      "bundle": "characters",
+      "animationSources": [
+        {
+          "path": "Assets/Animations/all_animations_max_motextr_static/f_idle_breathe_01.max.fbx",
+          "sha256": "e470ba984484149c8269772b7640b754bd996ba83b23ae75535128412997aa45"
+        },
+        {
+          "path": "Assets/Animations/all_animations_max_motextr_static/f_sit_chair_breathe_01.max.fbx",
+          "sha256": "3ca0abad7b573b22b3b9684d96835ce8bdc956e11e7008f86d9c66d3eca38be7"
+        },
+        {
+          "path": "Assets/Animations/all_animations_max_motextr_xy/f_walk_neutral.max.fbx",
+          "sha256": "e210c9e34949a4eacad0a85021d4d1a59aab177ca1737e6038309896147ebae2"
+        },
+        {
+          "path": "Assets/Animations/all_animations_max_motextr_xyz/f_sit_down_chair_01.max.fbx",
+          "sha256": "6ef5c1d78ed9050e722795cb2edca96e9551647a47729cab1d84a4c8383a3ed5"
+        }
+      ],
+      "conversion": "Blender 4.5.16; original skin and 80-bone rig; evaluated native animation baked into avatar rest basis at 20 Hz; root XY travel removed; original facial rest preserved; 1024px base color/alpha, 512px normal maps; hair alpha MASK."
+    },
+    {
+      "id": "resident-man",
+      "url": "/assets/models/resident-man.glb",
+      "name": "Male_Adult_08",
+      "publisher": "Microsoft / Rocketbox",
+      "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+      "sourcePath": "Assets/Avatars/Adults/Male_Adult_08/Export/Male_Adult_08.fbx",
+      "sourceSha256": "e0d979315a5f11050945522f9f084932807af2edeefbdb380a2c9aa36c9f9bb3",
+      "commit": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+      "license": "MIT",
+      "licenseFile": "/assets/licenses/microsoft-rocketbox-LICENSE.txt",
+      "licenseEvidenceSha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352",
+      "bytes": 2560996,
+      "gzipBytes": 2231083,
+      "sha256": "4cf05a59c82d1a34412d274170993edac27cd2bce85c599f617c813705fe43c1",
+      "triangles": 7364,
+      "bounds": {
+        "min": [
+          -0.6741140484809875,
+          -0.0009261140367016196,
+          -0.13573329150676727
+        ],
+        "max": [
+          0.6741140484809875,
+          1.8247954845428467,
+          0.20302993059158325
+        ],
+        "size": [
+          1.348228096961975,
+          1.8257215985795483,
+          0.3387632220983505
+        ]
+      },
+      "skins": 1,
+      "joints": 80,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Sitting"
+      ],
+      "animationDurations": {
+        "Idle": 2.8,
+        "Walk": 1.1,
+        "Sitting": 12.75
+      },
+      "animationRoles": {
+        "idle": "Idle",
+        "walk": "Walk",
+        "sit": "Sitting"
+      },
+      "rig": {
+        "head": "Head",
+        "hips": "Hips",
+        "leftHand": "Palm.L",
+        "rightHand": "Palm.R",
+        "forward": "+Z",
+        "up": "+Y"
+      },
+      "materialPolicy": "preserve-authored-pbr",
+      "loadPolicy": "on-demand",
+      "bundle": "characters",
+      "animationSources": [
+        {
+          "path": "Assets/Animations/all_animations_max_motextr_static/m_idle_breathe_01.max.fbx",
+          "sha256": "281735704260d96e882d13e3c77d0ede00ed5d2e40805cd305000b3e5cbb1090"
+        },
+        {
+          "path": "Assets/Animations/all_animations_max_motextr_static/m_sit_chair_breathe_01.max.fbx",
+          "sha256": "8e4dae334b6036bf7da539e2763d57b453b4f382cb1b024e441f5329ce66ea0c"
+        },
+        {
+          "path": "Assets/Animations/all_animations_max_motextr_xy/m_walk_neutral.max.fbx",
+          "sha256": "93089851a370e3a117a6bd04c002815f7133fce41c6271e9eb448ca1228b154f"
+        },
+        {
+          "path": "Assets/Animations/all_animations_max_motextr_xyz/m_sit_down_chair_01.max.fbx",
+          "sha256": "2dbfccc5febc8d37ff9d1593f75253cbd8d5393c6a448695184755535491e4cf"
+        }
+      ],
+      "conversion": "Blender 4.5.16; original skin and 80-bone rig; evaluated native animation baked into avatar rest basis at 20 Hz; root XY travel removed; original facial rest preserved; 1024px base color/alpha, 512px normal maps; hair alpha MASK."
+    }
+  ]
+}

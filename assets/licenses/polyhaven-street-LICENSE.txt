@@ -1,0 +1,29 @@
+Poly Haven street material assets — license evidence record
+
+License: CC0 1.0 Universal (CC0-1.0).
+Official asset license: https://polyhaven.com/license
+CC0 legal summary: https://creativecommons.org/publicdomain/zero/1.0/
+Verified: 2026-11-12, via official asset pages and official license page.
+
+Poly Haven states that its textures are CC0 and may be used commercially,
+modified and redistributed. Attribution is not required; we retain it voluntarily.
+This file records official web evidence, not a purported original ZIP license.
+
+Assets and authors:
+- Brick Wall 001: https://polyhaven.com/a/brick_wall_001
+  Dimitrios Savva (Photography); Rob Tuytel (Processing).
+- Concrete Floor Worn 001: https://polyhaven.com/a/concrete_floor_worn_001
+  Dimitrios Savva (Photography); Rico Cilliers (Processing).
+- Asphalt 01: https://polyhaven.com/a/asphalt_01
+  Charlotte Baglioni (Photography); Dario Barresi (Processing).
+- Wood Table 001: https://polyhaven.com/a/wood_table_001
+  Dimitrios Savva (Photography); Rico Cilliers (Processing).
+
+Only each asset's official 1K JPG Diffuse image was downloaded, through
+api.polyhaven.com/files/<asset-id>. Original bytes and MD5 match that API.
+Publishing derivatives: JPEG quality 70 using macOS sips; brick stays 1024px,
+other three maps resized to 512px; no recoloring, generated content or repainting.
+URLs, source and derivative SHA-256, sizes, dimensions and processing are in
+/assets/street-materials.json. These are surface color maps, not screenshots,
+normal maps, baked lighting or geometry. No Nobody - The Turnaround assets are
+included in these files or this license record.

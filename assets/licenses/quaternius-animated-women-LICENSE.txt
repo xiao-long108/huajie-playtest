@@ -1,0 +1,19 @@
+Quaternius Animated Women Pack — license evidence record
+Verified 2026-11-12.
+Author: Quaternius
+License: CC0 1.0 Universal (CC0-1.0), public-domain dedication.
+Official pack page: https://quaternius.com/packs/animatedwomen.html
+Author's original 2019 release post: https://www.patreon.com/quaternius/posts/free-animated-25029311
+Author's model publication / actual GLB source: https://poly.pizza/m/jpKRgGDxhk
+License terms: https://creativecommons.org/publicdomain/zero/1.0/
+
+The official pack page labels the pack CC0 and states:
+"free to use in personal and commercial projects."
+The author's Poly Pizza model page labels the specific model Public Domain (CC0).
+The author's original release post also states CC0.
+
+This is an evidence record, not a fabricated copy of the original archive License.txt.
+The official Google Drive License.txt download returned Quota exceeded during this
+session. The model was acquired from the author's public Poly Pizza distribution.
+Original source GLB hashes, URL and any local derivatives are in catalog.json.
+CC0 allows modification and commercial reuse; attribution is retained voluntarily.

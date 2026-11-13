@@ -1,0 +1,1299 @@
+{
+  "version": 1,
+  "verifiedOn": "2026-11-12",
+  "coordinateSystem": "glTF 2.0 right-handed +Y-up; normalize each instance by world-space AABB bottom-center. Original dimensions vary.",
+  "packs": [
+    {
+      "id": "furniture-kit",
+      "author": "Kenney",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "archiveSha256": "e67652d0932cee41683f74711c03d3e192a2af9979ef8e6b237711f5482d46b0",
+      "archiveBytes": 5130729
+    },
+    {
+      "id": "food-kit",
+      "author": "Kenney",
+      "source": "https://kenney.nl/assets/food-kit",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "archiveSha256": "cdad90853682499b94c9fda2f87678b24bfd8f3264e0ed323f6b6a27fd7c6f6f",
+      "archiveBytes": 4606270
+    },
+    {
+      "id": "nature-kit",
+      "author": "Kenney",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseFile": "/assets/licenses/nature-kit-LICENSE.txt",
+      "archiveSha256": "fa7974a0d342bfe63c38664ba9f8ec1a4aab8ea25f099bdc56870e33588c4d9d",
+      "archiveBytes": 10537521
+    },
+    {
+      "id": "quaternius-animated-men",
+      "author": "Quaternius",
+      "source": "https://quaternius.com/packs/animatedmen.html",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseFile": "/assets/licenses/quaternius-animated-men-LICENSE.txt",
+      "licenseEvidenceType": "author-publication",
+      "licenseEvidenceSources": [
+        "https://quaternius.com/packs/animatedmen.html",
+        "https://poly.pizza/m/HMnuH5geEG",
+        "https://www.patreon.com/quaternius/posts/free-animated-24703403"
+      ],
+      "licenseEvidenceSha256": "49182a3f487ec508f5496cb047cc4584c27bacdafa3e07d7b1ec13a1d7834df9",
+      "acquisition": "Individual GLB from author Poly Pizza publication; original Drive license download quota exceeded"
+    },
+    {
+      "id": "quaternius-animated-women",
+      "author": "Quaternius",
+      "source": "https://quaternius.com/packs/animatedwomen.html",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseFile": "/assets/licenses/quaternius-animated-women-LICENSE.txt",
+      "licenseEvidenceType": "author-publication",
+      "licenseEvidenceSources": [
+        "https://quaternius.com/packs/animatedwomen.html",
+        "https://poly.pizza/m/jpKRgGDxhk",
+        "https://www.patreon.com/quaternius/posts/free-animated-25029311"
+      ],
+      "licenseEvidenceSha256": "d343699719e2dfde1b35b7e5d32e6a73411cab6280a71840dcb2bcc1e157dbf9",
+      "acquisition": "Individual GLB from author Poly Pizza publication; original Drive license download quota exceeded"
+    }
+  ],
+  "models": [
+    {
+      "id": "table",
+      "url": "/assets/models/table.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/tableCloth.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "64de52b5c4370724c29feefd68a65b157c55c88592e2096987bbce007ae80bcb",
+      "sourceSha256": "64de52b5c4370724c29feefd68a65b157c55c88592e2096987bbce007ae80bcb",
+      "bytes": 9920,
+      "triangles": 144,
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          -0.447373
+        ],
+        "max": [
+          0.841488,
+          0.326734,
+          0.0
+        ],
+        "size": [
+          0.841488,
+          0.326734,
+          0.447373
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "core"
+    },
+    {
+      "id": "tableRound",
+      "url": "/assets/models/tableRound.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/tableRound.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "f8daea9124a542a00b7bdacfddac82dc468573d43e44d7b54dd6316e9695754b",
+      "sourceSha256": "f8daea9124a542a00b7bdacfddac82dc468573d43e44d7b54dd6316e9695754b",
+      "bytes": 6444,
+      "triangles": 80,
+      "bounds": {
+        "min": [
+          0.0,
+          -0.27,
+          -0.8
+        ],
+        "max": [
+          0.69282,
+          0.096734,
+          0.0
+        ],
+        "size": [
+          0.69282,
+          0.366734,
+          0.8
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "core"
+    },
+    {
+      "id": "chair",
+      "url": "/assets/models/chair.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/chairModernCushion.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "245132697e633e907e2b48c86d56f6c8543604a3440a055d1c71c06ce11d2858",
+      "sourceSha256": "245132697e633e907e2b48c86d56f6c8543604a3440a055d1c71c06ce11d2858",
+      "bytes": 7376,
+      "triangles": 92,
+      "bounds": {
+        "min": [
+          0,
+          0,
+          -0.2
+        ],
+        "max": [
+          0.2,
+          0.46,
+          0
+        ],
+        "size": [
+          0.2,
+          0.46,
+          0.2
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "core"
+    },
+    {
+      "id": "counter",
+      "url": "/assets/models/counter.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/kitchenBar.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "792c3d31e60c8a8d8c7a28cf7d1efe004c5a601adc1b163a8799dde32c1b559d",
+      "sourceSha256": "792c3d31e60c8a8d8c7a28cf7d1efe004c5a601adc1b163a8799dde32c1b559d",
+      "bytes": 6004,
+      "triangles": 76,
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          -0.21
+        ],
+        "max": [
+          0.43,
+          0.42,
+          0
+        ],
+        "size": [
+          0.43,
+          0.42,
+          0.21
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "core"
+    },
+    {
+      "id": "coffeeMachine",
+      "url": "/assets/models/coffeeMachine.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/kitchenCoffeeMachine.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "063f582c6fa0f00a9f24e3393dac2295491c4becdaf5513c893ab1a2826b6ec3",
+      "sourceSha256": "063f582c6fa0f00a9f24e3393dac2295491c4becdaf5513c893ab1a2826b6ec3",
+      "bytes": 13332,
+      "triangles": 166,
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          -0.240167
+        ],
+        "max": [
+          0.18954,
+          0.177489,
+          0.0
+        ],
+        "size": [
+          0.18954,
+          0.177489,
+          0.240167
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "core"
+    },
+    {
+      "id": "plant",
+      "url": "/assets/models/plant.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/pottedPlant.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15",
+      "sourceSha256": "5b760eda2766f75fda36b2c5df652a1662f82981ef64cd8fa7fe7bcd386b3a15",
+      "bytes": 7576,
+      "triangles": 60,
+      "bounds": {
+        "min": [
+          -0.10603,
+          0.0,
+          -0.120731
+        ],
+        "max": [
+          0.10603,
+          0.654017,
+          0.120731
+        ],
+        "size": [
+          0.212059,
+          0.654017,
+          0.241462
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "core"
+    },
+    {
+      "id": "smallPlant",
+      "url": "/assets/models/smallPlant.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/plantSmall1.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15",
+      "sourceSha256": "2b9c022feb47be857b2c4fdc29f36522766ba9b70c578c31d7c05d71b4377d15",
+      "bytes": 8224,
+      "triangles": 102,
+      "bounds": {
+        "min": [
+          -0.04733,
+          0.0,
+          -0.04733
+        ],
+        "max": [
+          0.04733,
+          0.14,
+          0.04733
+        ],
+        "size": [
+          0.094661,
+          0.14,
+          0.094661
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "core"
+    },
+    {
+      "id": "lamp",
+      "url": "/assets/models/lamp.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/lampRoundFloor.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+      "sourceSha256": "50fe1b5b588edf15bfa9cc880f71a02a4fda6036350b24733d0ef4de5cc5e908",
+      "bytes": 6600,
+      "triangles": 76,
+      "bounds": {
+        "min": [
+          -0.01602,
+          0.0,
+          -0.14778
+        ],
+        "max": [
+          0.13602,
+          0.86,
+          0.02778
+        ],
+        "size": [
+          0.152039,
+          0.86,
+          0.17556
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "decor"
+    },
+    {
+      "id": "bear",
+      "url": "/assets/models/bear.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/bear.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "fd87c08f81dcd652b1f7f61afae9d1f040fa1322ac4ddda6f543ed423b954aed",
+      "sourceSha256": "fd87c08f81dcd652b1f7f61afae9d1f040fa1322ac4ddda6f543ed423b954aed",
+      "bytes": 11884,
+      "triangles": 134,
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          -0.2475
+        ],
+        "max": [
+          0.389711,
+          0.45,
+          0
+        ],
+        "size": [
+          0.389711,
+          0.45,
+          0.2475
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "decor"
+    },
+    {
+      "id": "shelf",
+      "url": "/assets/models/shelf.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/bookcaseOpenLow.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "6d4d625faf977a2dbf155f1313cd32c6310e463114a1cd4c08cb9f80a5fb1d75",
+      "sourceSha256": "6d4d625faf977a2dbf155f1313cd32c6310e463114a1cd4c08cb9f80a5fb1d75",
+      "bytes": 11520,
+      "triangles": 184,
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          -0.25
+        ],
+        "max": [
+          0.4,
+          0.4,
+          0
+        ],
+        "size": [
+          0.4,
+          0.4,
+          0.25
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "decor"
+    },
+    {
+      "id": "cake",
+      "url": "/assets/models/cake.glb",
+      "pack": "food-kit",
+      "source": "https://kenney.nl/assets/food-kit",
+      "sourcePath": "Models/GLB format/cake.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "sha256": "9aaf404b02a9ca41113f1bcfb423185a7ca50e2db2c2036417ee8112b58db7fe",
+      "sourceSha256": "9594766d701142c4f5ab1d36cc40957667cd966281757e887de4d40557e63e09",
+      "bytes": 83604,
+      "triangles": 750,
+      "bounds": {
+        "min": [
+          -0.3196,
+          0.0,
+          -0.3196
+        ],
+        "max": [
+          0.3196,
+          0.273077,
+          0.3196
+        ],
+        "size": [
+          0.6392,
+          0.273077,
+          0.6392
+        ]
+      },
+      "processing": "Embedded original PNG texture into GLB; geometry unchanged",
+      "bundle": "core"
+    },
+    {
+      "id": "cupcake",
+      "url": "/assets/models/cupcake.glb",
+      "pack": "food-kit",
+      "source": "https://kenney.nl/assets/food-kit",
+      "sourcePath": "Models/GLB format/cupcake.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "sha256": "11e08b9c263b60a2bd89579181be0158320908f4c936fee71cfc921bf171957b",
+      "sourceSha256": "84b2681793445607b846023f0314abe74f70a65ee51c999df4322348934fb2ce",
+      "bytes": 33476,
+      "triangles": 204,
+      "bounds": {
+        "min": [
+          -0.177581,
+          0.0,
+          -0.15379
+        ],
+        "max": [
+          0.177581,
+          0.4238,
+          0.15379
+        ],
+        "size": [
+          0.355163,
+          0.4238,
+          0.30758
+        ]
+      },
+      "processing": "Embedded original PNG texture into GLB; geometry unchanged",
+      "bundle": "core"
+    },
+    {
+      "id": "cup",
+      "url": "/assets/models/cup.glb",
+      "pack": "food-kit",
+      "source": "https://kenney.nl/assets/food-kit",
+      "sourcePath": "Models/GLB format/cup-coffee.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "sha256": "e27b36f6ed0e913d1fd5536bc72a56f70d590a7d268d80578daf3baf60e9fba4",
+      "sourceSha256": "d74652ad1821bc5dedf1b2e1deb4e0ca0c498aa73880e7df5b91e5e729af6f81",
+      "bytes": 18648,
+      "triangles": 108,
+      "bounds": {
+        "min": [
+          -0.108145,
+          -0.0,
+          -0.164399
+        ],
+        "max": [
+          0.108145,
+          0.14,
+          0.12225
+        ],
+        "size": [
+          0.21629,
+          0.14,
+          0.286649
+        ]
+      },
+      "processing": "Embedded original PNG texture into GLB; geometry unchanged",
+      "bundle": "core"
+    },
+    {
+      "id": "pancakes",
+      "url": "/assets/models/pancakes.glb",
+      "pack": "food-kit",
+      "source": "https://kenney.nl/assets/food-kit",
+      "sourcePath": "Models/GLB format/pancakes.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "sha256": "a50d3fb07dc55a5ee68178f93c675caabd6ac6178b76f718698ddfda37b40a32",
+      "sourceSha256": "75550fb0eae1169ce4f59b054b0bbaa3de3be67765cd457a7e3e99488e93546e",
+      "bytes": 53332,
+      "triangles": 512,
+      "bounds": {
+        "min": [
+          -0.232506,
+          -0.0,
+          -0.251957
+        ],
+        "max": [
+          0.202998,
+          0.121599,
+          0.251957
+        ],
+        "size": [
+          0.435505,
+          0.121599,
+          0.503913
+        ]
+      },
+      "processing": "Embedded original PNG texture into GLB; geometry unchanged",
+      "bundle": "core"
+    },
+    {
+      "id": "tea",
+      "url": "/assets/models/tea.glb",
+      "pack": "food-kit",
+      "source": "https://kenney.nl/assets/food-kit",
+      "sourcePath": "Models/GLB format/cup-tea.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "sha256": "107874f153ec3011205c07f38d0be26764a73bdc9c8d8b665c2d41d82534daeb",
+      "sourceSha256": "c2d60aeca48197b75ddb9f1ba145bd5e9c9e66e720b8ab67947f0b2a49ee1edd",
+      "bytes": 20552,
+      "triangles": 144,
+      "bounds": {
+        "min": [
+          -0.115,
+          0.0,
+          -0.177117
+        ],
+        "max": [
+          0.121928,
+          0.2,
+          0.115
+        ],
+        "size": [
+          0.236928,
+          0.2,
+          0.292117
+        ]
+      },
+      "processing": "Embedded original PNG texture into GLB; geometry unchanged",
+      "bundle": "core"
+    },
+    {
+      "id": "croissant",
+      "url": "/assets/models/croissant.glb",
+      "pack": "food-kit",
+      "source": "https://kenney.nl/assets/food-kit",
+      "sourcePath": "Models/GLB format/croissant.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "sha256": "b980b42b3744a13d0752cf0e7bab705197ebe675567fd7662b00f3662ab9cd5c",
+      "sourceSha256": "f2f8ee64d7850b262a6af2492cd042fa8eb6506cde49d439360ad1a3df48fe9e",
+      "bytes": 25120,
+      "triangles": 162,
+      "bounds": {
+        "min": [
+          -0.173045,
+          0.0,
+          -0.238828
+        ],
+        "max": [
+          0.173045,
+          0.193609,
+          0.238828
+        ],
+        "size": [
+          0.34609,
+          0.193609,
+          0.477657
+        ]
+      },
+      "processing": "Embedded original PNG texture into GLB; geometry unchanged",
+      "bundle": "core"
+    },
+    {
+      "id": "plate",
+      "url": "/assets/models/plate.glb",
+      "pack": "food-kit",
+      "source": "https://kenney.nl/assets/food-kit",
+      "sourcePath": "Models/GLB format/plate.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "sha256": "776420d147b5dfc38251fae40600350d254870d2e0ba6c1bc863d2e28a70c1dc",
+      "sourceSha256": "4c1de567b854264b2a9407ec221d33dfd13c7fc18563ea1f33cb8abe3a3d11be",
+      "bytes": 19252,
+      "triangles": 140,
+      "bounds": {
+        "min": [
+          -0.445887,
+          0.0,
+          -0.445887
+        ],
+        "max": [
+          0.445887,
+          0.09,
+          0.445887
+        ],
+        "size": [
+          0.891774,
+          0.09,
+          0.891774
+        ]
+      },
+      "processing": "Embedded original PNG texture into GLB; geometry unchanged",
+      "bundle": "core"
+    },
+    {
+      "id": "tree",
+      "url": "/assets/models/tree.glb",
+      "pack": "nature-kit",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "sourcePath": "Models/GLTF format/tree_oak.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/nature-kit-LICENSE.txt",
+      "sha256": "d7fd8773674928c50c11b66d12c636d49bdcc15a8b1c7fbb98e6f63a3439a3f3",
+      "sourceSha256": "d7fd8773674928c50c11b66d12c636d49bdcc15a8b1c7fbb98e6f63a3439a3f3",
+      "bytes": 14644,
+      "triangles": 196,
+      "bounds": {
+        "min": [
+          -0.320277,
+          -0.05,
+          -0.369824
+        ],
+        "max": [
+          0.320277,
+          1.17624,
+          0.369824
+        ],
+        "size": [
+          0.640554,
+          1.22624,
+          0.739648
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "decor"
+    },
+    {
+      "id": "flowers",
+      "url": "/assets/models/flowers.glb",
+      "pack": "nature-kit",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "sourcePath": "Models/GLTF format/flower_redA.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/nature-kit-LICENSE.txt",
+      "sha256": "171930b7789ddbf735af3745576b5393750beb9133b9ff4a444bb6bb2986c020",
+      "sourceSha256": "171930b7789ddbf735af3745576b5393750beb9133b9ff4a444bb6bb2986c020",
+      "bytes": 7104,
+      "triangles": 76,
+      "bounds": {
+        "min": [
+          -0.104535,
+          -0.05,
+          -0.09053
+        ],
+        "max": [
+          0.054563,
+          0.2425,
+          0.09053
+        ],
+        "size": [
+          0.159098,
+          0.2925,
+          0.181059
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "decor"
+    },
+    {
+      "id": "bush",
+      "url": "/assets/models/bush.glb",
+      "pack": "nature-kit",
+      "source": "https://kenney.nl/assets/nature-kit",
+      "sourcePath": "Models/GLTF format/plant_bush.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/nature-kit-LICENSE.txt",
+      "sha256": "ae7b1beb39e242b13f5f29e3ec23ef21034b814f82297b8aa00a9bf4e1b09590",
+      "sourceSha256": "ae7b1beb39e242b13f5f29e3ec23ef21034b814f82297b8aa00a9bf4e1b09590",
+      "bytes": 4396,
+      "triangles": 32,
+      "bounds": {
+        "min": [
+          -0.198,
+          -0.05,
+          -0.198
+        ],
+        "max": [
+          0.198,
+          0.194444,
+          0.198
+        ],
+        "size": [
+          0.396,
+          0.244444,
+          0.396
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "decor"
+    },
+    {
+      "id": "guest-woman",
+      "url": "/assets/models/guest-woman.glb",
+      "pack": "quaternius-animated-women",
+      "source": "https://quaternius.com/packs/animatedwomen.html",
+      "sourcePath": "animated-woman-casual.glb",
+      "sourceDownload": "https://static.poly.pizza/51d5abdd-bb87-4b8d-9967-21738ffb8437.glb.br",
+      "sourcePage": "https://poly.pizza/m/jpKRgGDxhk",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/quaternius-animated-women-LICENSE.txt",
+      "sha256": "9f57eaed7c680bb009f5e847459ed53dfa775282358c6cada8b8e5ddaf2e9941",
+      "sourceSha256": "99c4df0aaabd19022809facc68f5fb5f564d35df3a9893c273a31fdaacf68e96",
+      "bytes": 572908,
+      "triangles": 2776,
+      "bounds": {
+        "min": [
+          -2.512979,
+          -0.018289,
+          -0.429513
+        ],
+        "max": [
+          2.512979,
+          4.636975,
+          0.543382
+        ],
+        "size": [
+          5.025958,
+          4.655264,
+          0.972895
+        ]
+      },
+      "processing": {
+        "localProcessing": "60-degree same-position vertex-normal smoothing; nonmetal rough materials; geometry, skin and animation channels preserved",
+        "variant": "original material colors"
+      },
+      "bundle": "characters",
+      "animations": [
+        "HumanArmature|Female_Clapping",
+        "HumanArmature|Female_Death",
+        "HumanArmature|Female_Idle",
+        "HumanArmature|Female_Jump",
+        "HumanArmature|Female_Punch",
+        "HumanArmature|Female_Run",
+        "HumanArmature|Female_RunningJump",
+        "HumanArmature|Female_Sitting",
+        "HumanArmature|Female_Standing",
+        "HumanArmature|Female_SwordSlash",
+        "HumanArmature|Female_Walk"
+      ],
+      "animationDurations": {
+        "HumanArmature|Female_Clapping": 1.66666662693024,
+        "HumanArmature|Female_Death": 2.08333325386047,
+        "HumanArmature|Female_Idle": 4.16666650772095,
+        "HumanArmature|Female_Jump": 1.04166662693024,
+        "HumanArmature|Female_Punch": 0.916666686534882,
+        "HumanArmature|Female_Run": 0.875,
+        "HumanArmature|Female_RunningJump": 1.25,
+        "HumanArmature|Female_Sitting": 8.33333301544189,
+        "HumanArmature|Female_Standing": 0.833333313465118,
+        "HumanArmature|Female_SwordSlash": 1.04166662693024,
+        "HumanArmature|Female_Walk": 1.04166662693024
+      },
+      "animationRoles": {
+        "idle": "HumanArmature|Female_Idle",
+        "walk": "HumanArmature|Female_Walk",
+        "sit": "HumanArmature|Female_Sitting",
+        "stand": "HumanArmature|Female_Standing",
+        "gesture": "HumanArmature|Female_Clapping"
+      },
+      "skins": 1,
+      "jointsPerSkin": [
+        31
+      ],
+      "rig": {
+        "forward": "+Z",
+        "up": "+Y",
+        "headNode": "Head",
+        "hipNode": "Hips",
+        "motionRoot": "Bone",
+        "handNodes": [
+          "Palm.L",
+          "Palm.R"
+        ],
+        "upperArmNodes": [
+          "UpperArm.L",
+          "UpperArm.R"
+        ],
+        "forearmNodes": [
+          "LowerArm.L",
+          "LowerArm.R"
+        ],
+        "sittingSampleTime": 8.3333,
+        "sittingHipPosition": [
+          -0.020605,
+          1.102128,
+          -0.600191
+        ],
+        "standingHipY": 1.907033
+      }
+    },
+    {
+      "id": "guest-man",
+      "url": "/assets/models/guest-man.glb",
+      "pack": "quaternius-animated-men",
+      "source": "https://quaternius.com/packs/animatedmen.html",
+      "sourcePath": "animated-man.glb",
+      "sourceDownload": "https://static.poly.pizza/3746be88-6799-4817-929b-6bc067c47caa.glb.br",
+      "sourcePage": "https://poly.pizza/m/HMnuH5geEG",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/quaternius-animated-men-LICENSE.txt",
+      "sha256": "e0a9649975d1b47049b6586bf358e73e83bcd3e7102b9941b3be0cda94701b1a",
+      "sourceSha256": "dad8fa3ca2bc7760892f9ff47f544941179e50acb2aa772cf9f035154a37fc58",
+      "bytes": 480360,
+      "triangles": 1852,
+      "bounds": {
+        "min": [
+          -2.598582,
+          0.003359,
+          -0.3994
+        ],
+        "max": [
+          2.598582,
+          4.844611,
+          0.543382
+        ],
+        "size": [
+          5.197165,
+          4.841252,
+          0.942781
+        ]
+      },
+      "processing": {
+        "localProcessing": "60-degree same-position vertex-normal smoothing; nonmetal rough materials; geometry, skin and animation channels preserved",
+        "variant": "original material colors"
+      },
+      "bundle": "characters",
+      "animations": [
+        "HumanArmature|Man_Clapping",
+        "HumanArmature|Man_Death",
+        "HumanArmature|Man_Idle",
+        "HumanArmature|Man_Jump",
+        "HumanArmature|Man_Punch",
+        "HumanArmature|Man_Run",
+        "HumanArmature|Man_RunningJump",
+        "HumanArmature|Man_Sitting",
+        "HumanArmature|Man_Standing",
+        "HumanArmature|Man_SwordSlash",
+        "HumanArmature|Man_Walk"
+      ],
+      "animationDurations": {
+        "HumanArmature|Man_Clapping": 1.66666662693024,
+        "HumanArmature|Man_Death": 2.08333325386047,
+        "HumanArmature|Man_Idle": 4.16666650772095,
+        "HumanArmature|Man_Jump": 1.04166662693024,
+        "HumanArmature|Man_Punch": 0.916666686534882,
+        "HumanArmature|Man_Run": 0.875,
+        "HumanArmature|Man_RunningJump": 1.25,
+        "HumanArmature|Man_Sitting": 8.33333301544189,
+        "HumanArmature|Man_Standing": 0.833333313465118,
+        "HumanArmature|Man_SwordSlash": 1.04166662693024,
+        "HumanArmature|Man_Walk": 1.04166662693024
+      },
+      "animationRoles": {
+        "idle": "HumanArmature|Man_Idle",
+        "walk": "HumanArmature|Man_Walk",
+        "sit": "HumanArmature|Man_Sitting",
+        "stand": "HumanArmature|Man_Standing",
+        "gesture": "HumanArmature|Man_Clapping"
+      },
+      "skins": 1,
+      "jointsPerSkin": [
+        31
+      ],
+      "rig": {
+        "forward": "+Z",
+        "up": "+Y",
+        "headNode": "Head",
+        "hipNode": "Hips",
+        "motionRoot": "Bone",
+        "handNodes": [
+          "Palm.L",
+          "Palm.R"
+        ],
+        "upperArmNodes": [
+          "UpperArm.L",
+          "UpperArm.R"
+        ],
+        "forearmNodes": [
+          "LowerArm.L",
+          "LowerArm.R"
+        ],
+        "sittingSampleTime": 8.3333,
+        "sittingHipPosition": [
+          -0.020605,
+          1.102128,
+          -0.600191
+        ],
+        "standingHipY": 1.907033
+      }
+    },
+    {
+      "id": "guest-lady",
+      "url": "/assets/models/guest-lady.glb",
+      "pack": "quaternius-animated-women",
+      "source": "https://quaternius.com/packs/animatedwomen.html",
+      "sourcePath": "animated-woman-casual.glb",
+      "sourceDownload": "https://static.poly.pizza/51d5abdd-bb87-4b8d-9967-21738ffb8437.glb.br",
+      "sourcePage": "https://poly.pizza/m/jpKRgGDxhk",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/quaternius-animated-women-LICENSE.txt",
+      "sha256": "0e079d916da859c995ff1fb97d62399cac10a19a794e084666b1c5c9129d3a02",
+      "sourceSha256": "99c4df0aaabd19022809facc68f5fb5f564d35df3a9893c273a31fdaacf68e96",
+      "bytes": 572784,
+      "triangles": 2776,
+      "bounds": {
+        "min": [
+          -2.512979,
+          -0.018289,
+          -0.429513
+        ],
+        "max": [
+          2.512979,
+          4.636975,
+          0.543382
+        ],
+        "size": [
+          5.025958,
+          4.655264,
+          0.972895
+        ]
+      },
+      "processing": {
+        "localProcessing": "60-degree same-position vertex-normal smoothing; nonmetal rough materials; geometry, skin and animation channels preserved",
+        "variant": "gray hair and brown shirt"
+      },
+      "bundle": "characters",
+      "animations": [
+        "HumanArmature|Female_Clapping",
+        "HumanArmature|Female_Death",
+        "HumanArmature|Female_Idle",
+        "HumanArmature|Female_Jump",
+        "HumanArmature|Female_Punch",
+        "HumanArmature|Female_Run",
+        "HumanArmature|Female_RunningJump",
+        "HumanArmature|Female_Sitting",
+        "HumanArmature|Female_Standing",
+        "HumanArmature|Female_SwordSlash",
+        "HumanArmature|Female_Walk"
+      ],
+      "animationDurations": {
+        "HumanArmature|Female_Clapping": 1.66666662693024,
+        "HumanArmature|Female_Death": 2.08333325386047,
+        "HumanArmature|Female_Idle": 4.16666650772095,
+        "HumanArmature|Female_Jump": 1.04166662693024,
+        "HumanArmature|Female_Punch": 0.916666686534882,
+        "HumanArmature|Female_Run": 0.875,
+        "HumanArmature|Female_RunningJump": 1.25,
+        "HumanArmature|Female_Sitting": 8.33333301544189,
+        "HumanArmature|Female_Standing": 0.833333313465118,
+        "HumanArmature|Female_SwordSlash": 1.04166662693024,
+        "HumanArmature|Female_Walk": 1.04166662693024
+      },
+      "animationRoles": {
+        "idle": "HumanArmature|Female_Idle",
+        "walk": "HumanArmature|Female_Walk",
+        "sit": "HumanArmature|Female_Sitting",
+        "stand": "HumanArmature|Female_Standing",
+        "gesture": "HumanArmature|Female_Clapping"
+      },
+      "skins": 1,
+      "jointsPerSkin": [
+        31
+      ],
+      "rig": {
+        "forward": "+Z",
+        "up": "+Y",
+        "headNode": "Head",
+        "hipNode": "Hips",
+        "motionRoot": "Bone",
+        "handNodes": [
+          "Palm.L",
+          "Palm.R"
+        ],
+        "upperArmNodes": [
+          "UpperArm.L",
+          "UpperArm.R"
+        ],
+        "forearmNodes": [
+          "LowerArm.L",
+          "LowerArm.R"
+        ],
+        "sittingSampleTime": 8.3333,
+        "sittingHipPosition": [
+          -0.020605,
+          1.102128,
+          -0.600191
+        ],
+        "standingHipY": 1.907033
+      }
+    },
+    {
+      "id": "bench",
+      "url": "/assets/models/bench.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/benchCushionLow.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "d1fac209eae2ea7393beefa4932dacb54d500e8f9932a1b17d2a842527df1b2c",
+      "sourceSha256": "d1fac209eae2ea7393beefa4932dacb54d500e8f9932a1b17d2a842527df1b2c",
+      "bytes": 10268,
+      "triangles": 138,
+      "bounds": {
+        "min": [
+          -0.01,
+          0.0,
+          -0.21
+        ],
+        "max": [
+          0.41,
+          0.2,
+          0.01
+        ],
+        "size": [
+          0.42,
+          0.2,
+          0.22
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "decor"
+    },
+    {
+      "id": "books",
+      "url": "/assets/models/books.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/books.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "b8dc56e5d29f6fc1f4727fccb1b9642627fee9942c48060a00034e98df02701c",
+      "sourceSha256": "b8dc56e5d29f6fc1f4727fccb1b9642627fee9942c48060a00034e98df02701c",
+      "bytes": 6864,
+      "triangles": 62,
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          -0.0945
+        ],
+        "max": [
+          0.150448,
+          0.103902,
+          0
+        ],
+        "size": [
+          0.150448,
+          0.103902,
+          0.0945
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "decor"
+    },
+    {
+      "id": "radio",
+      "url": "/assets/models/radio.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/radio.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "1ba93d6ba6f049750853b4652b92f286f2898e527695a0705b75cc7615897fed",
+      "sourceSha256": "1ba93d6ba6f049750853b4652b92f286f2898e527695a0705b75cc7615897fed",
+      "bytes": 25020,
+      "triangles": 432,
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          -0.0975
+        ],
+        "max": [
+          0.315,
+          0.228191,
+          0
+        ],
+        "size": [
+          0.315,
+          0.228191,
+          0.0975
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "decor"
+    },
+    {
+      "id": "crate",
+      "url": "/assets/models/crate.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/cardboardBoxOpen.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "960da412564774c75e7b32f9af0100895e1edb877fc1e70dd34ee2422a2196d4",
+      "sourceSha256": "960da412564774c75e7b32f9af0100895e1edb877fc1e70dd34ee2422a2196d4",
+      "bytes": 5404,
+      "triangles": 60,
+      "bounds": {
+        "min": [
+          -0.079687,
+          0.0,
+          -0.2125
+        ],
+        "max": [
+          0.292187,
+          0.281,
+          0.0
+        ],
+        "size": [
+          0.371875,
+          0.281,
+          0.2125
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "decor"
+    },
+    {
+      "id": "wallCabinet",
+      "url": "/assets/models/wallCabinet.glb",
+      "pack": "furniture-kit",
+      "source": "https://kenney.nl/assets/furniture-kit",
+      "sourcePath": "Models/GLTF format/kitchenCabinetUpperDouble.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/furniture-kit-LICENSE.txt",
+      "sha256": "7b2abd976f2e8f1727d6ba23490aaf5fe18db9c5ac66e729ef6fe8de835c039e",
+      "sourceSha256": "7b2abd976f2e8f1727d6ba23490aaf5fe18db9c5ac66e729ef6fe8de835c039e",
+      "bytes": 18184,
+      "triangles": 234,
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          -0.21
+        ],
+        "max": [
+          0.43,
+          0.39,
+          0.01
+        ],
+        "size": [
+          0.43,
+          0.39,
+          0.22
+        ]
+      },
+      "processing": "Unmodified original GLB",
+      "bundle": "decor"
+    },
+    {
+      "id": "oilBottle",
+      "url": "/assets/models/oilBottle.glb",
+      "pack": "food-kit",
+      "source": "https://kenney.nl/assets/food-kit",
+      "sourcePath": "Models/GLB format/bottle-oil.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "sha256": "6e4476efbbbd2f06964f0ab5c4a69d1f73802537fd2563310c655d10c5008136",
+      "sourceSha256": "a87a7a6146be0996b17aca3ccd011cfe0d045593db03f89829f88b6228b49d57",
+      "bytes": 21268,
+      "triangles": 96,
+      "bounds": {
+        "min": [
+          -0.07,
+          0.0,
+          -0.07
+        ],
+        "max": [
+          0.07,
+          0.6218,
+          0.07
+        ],
+        "size": [
+          0.14,
+          0.6218,
+          0.14
+        ]
+      },
+      "processing": "Embedded original PNG texture into GLB; geometry unchanged",
+      "bundle": "decor"
+    },
+    {
+      "id": "breadLoaf",
+      "url": "/assets/models/breadLoaf.glb",
+      "pack": "food-kit",
+      "source": "https://kenney.nl/assets/food-kit",
+      "sourcePath": "Models/GLB format/loaf.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "sha256": "69383bd08bbda77ff51e861be92959712fa3cad5d93515a734d340b097901122",
+      "sourceSha256": "d2e490046b919e8b793b1f479b9b3ee941c8fb9e657163d073223f2a39c5f563",
+      "bytes": 20236,
+      "triangles": 116,
+      "bounds": {
+        "min": [
+          -0.289872,
+          0.0,
+          -0.182952
+        ],
+        "max": [
+          0.289872,
+          0.442321,
+          0.182952
+        ],
+        "size": [
+          0.579744,
+          0.442321,
+          0.365904
+        ]
+      },
+      "processing": "Embedded original PNG texture into GLB; geometry unchanged",
+      "bundle": "decor"
+    },
+    {
+      "id": "breadBaguette",
+      "url": "/assets/models/breadBaguette.glb",
+      "pack": "food-kit",
+      "source": "https://kenney.nl/assets/food-kit",
+      "sourcePath": "Models/GLB format/loaf-baguette.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "sha256": "57b5933bbe565d27a859b350f932cfb0cd33b8f5a0b183eccc3168b7ed1330bb",
+      "sourceSha256": "c969ea026154653edc7062f1884ff2448a68fa0ec121012cfb1b4435eb2db1cf",
+      "bytes": 23596,
+      "triangles": 122,
+      "bounds": {
+        "min": [
+          -0.415,
+          0.0,
+          -0.125
+        ],
+        "max": [
+          0.415,
+          0.25,
+          0.125
+        ],
+        "size": [
+          0.83,
+          0.25,
+          0.25
+        ]
+      },
+      "processing": "Embedded original PNG texture into GLB; geometry unchanged",
+      "bundle": "decor"
+    },
+    {
+      "id": "spoon",
+      "url": "/assets/models/spoon.glb",
+      "pack": "food-kit",
+      "source": "https://kenney.nl/assets/food-kit",
+      "sourcePath": "Models/GLB format/utensil-spoon.glb",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/food-kit-LICENSE.txt",
+      "sha256": "969f900ced124817ec42a321235261780950adf3c6a3b80760007e49430d9e30",
+      "sourceSha256": "dbb39cce42ceaad607f80a3ee0b25a6f7d8f5feec3688f0c66fb585f4621e5f5",
+      "bytes": 16896,
+      "triangles": 46,
+      "bounds": {
+        "min": [
+          -0.239793,
+          0.0,
+          -0.06
+        ],
+        "max": [
+          0.239793,
+          0.0278,
+          0.06
+        ],
+        "size": [
+          0.479587,
+          0.0278,
+          0.12
+        ]
+      },
+      "processing": "Embedded original PNG texture into GLB; geometry unchanged",
+      "bundle": "decor"
+    }
+  ]
+}

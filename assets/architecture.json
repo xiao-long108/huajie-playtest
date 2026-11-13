@@ -1,0 +1,41 @@
+{
+  "publisher": "Poly Haven",
+  "license": "CC0-1.0",
+  "models": [
+    {
+      "id": "urban-kit",
+      "url": "/assets/models/urban-kit.glb",
+      "bytes": 1245680,
+      "sha256": "e2f8f926acd14dd43fdcaec51d36eb3f852a27128bedba9f901483460bea124c",
+      "source": "https://polyhaven.com/a/modular_urban_apartments_facade",
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/polyhaven-street-LICENSE.txt",
+      "parts": {
+        "urban-window": [
+          "wall_window_centered_small_03",
+          "window_centered_small_03"
+        ],
+        "urban-door": [
+          "wall_door_centered_small_02",
+          "door_centered_small_02"
+        ],
+        "urban-wall": [
+          "wall_standard_standard_01"
+        ],
+        "urban-shopfront": [
+          "wall_window_centered_double_03",
+          "window_centered_double_03"
+        ],
+        "urban-cornice": [
+          "cornice_standard_standard_01"
+        ]
+      },
+      "unit": "metre",
+      "processing": "Select 5 module groups, remove unused geometry, retain original UV/PBR groups, resize embedded texture maps to max512. Source buffers unchanged for retained geometry."
+    }
+  ],
+  "sourceGltfSha256": "1a5a17dffd27fb9e1236dea7e51c4e0393a9d88ed0885a0621e67a37f80b27eb",
+  "sourceGltfUrl": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modular_urban_apartments_facade/modular_urban_apartments_facade_1k.gltf",
+  "licenseFile": "/assets/licenses/polyhaven-street-LICENSE.txt",
+  "licenseSha256": "cdf3cf6c95cb2e1166ea3eaed0c078ce1be28df54cd8095e745d8c198fc411ff"
+}

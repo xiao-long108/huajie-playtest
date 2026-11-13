@@ -1,0 +1,39 @@
+Poly Haven realistic furniture — publisher license evidence record
+
+License: CC0 1.0 Universal (CC0-1.0).
+Official publisher license: https://polyhaven.com/license
+Legal summary: https://creativecommons.org/publicdomain/zero/1.0/
+Verified: 2026-11-13 via the official model pages, publisher license and API.
+
+Poly Haven permits commercial use, modification and redistribution of its CC0
+models and textures. Attribution is voluntary and retained here.
+This file records publisher web evidence; it is not an original archive license.
+No proprietary game assets or screenshots are included in these GLBs.
+
+Round Wooden Table 02
+https://polyhaven.com/a/round_wooden_table_02
+Authors: Ulan Cabanilla
+
+Dining Chair 02
+https://polyhaven.com/a/dining_chair_02
+Authors: James Ray Cock
+
+Painted Wooden Bench
+https://polyhaven.com/a/painted_wooden_bench
+Authors: Kirill Sannikov
+
+Vintage Day Bed
+https://polyhaven.com/a/vintage_day_bed
+Authors: Aron Łyczek
+
+Wooden Table 02
+https://polyhaven.com/a/wooden_table_02
+Authors: Serhii Khromov
+
+Conversion: downloaded the official 1K glTF plus its declared BIN and three
+JPG dependencies. Source bytes and MD5 were checked against the publisher API;
+SHA-256 is locked in source-files.json and realistic-props.json. Resized only
+texture pixels to 512px using sips; kept original base-color, tangent-space
+OpenGL normal and packed AO/roughness/metal maps. Embedded them in GLB without
+changing original geometry BIN bytes, normals, UVs, materials or node transforms.
+Reproducible scripts and original files: art-source/realistic-props/.

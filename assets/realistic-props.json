@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 1,
+  "publisher": "Poly Haven",
+  "license": "CC0-1.0",
+  "licenseFile": "/assets/licenses/polyhaven-realistic-props-LICENSE.txt",
+  "licenseSha256": "176d8cca50ff5004dbc5e1e9ebb2513efa20e7095fb97ce494ef519d9c9e5b18",
+  "sourceArchive": "art-source/realistic-props",
+  "buildScript": "docs/asset-pipeline/build-realistic-props.py",
+  "totalBytes": 2075052,
+  "totalGzipBytes": 1826907,
+  "models": [
+    {
+      "id": "real-round-table",
+      "url": "/assets/models/real-round-table.glb",
+      "name": "Round Wooden Table 02",
+      "source": "https://polyhaven.com/a/round_wooden_table_02",
+      "sourceId": "round_wooden_table_02",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/polyhaven-realistic-props-LICENSE.txt",
+      "licenseEvidenceSha256": "176d8cca50ff5004dbc5e1e9ebb2513efa20e7095fb97ce494ef519d9c9e5b18",
+      "licenseEvidenceType": "publisher-publication",
+      "licenseEvidenceSources": [
+        "https://polyhaven.com/a/round_wooden_table_02",
+        "https://polyhaven.com/license"
+      ],
+      "sourcePath": "original/round_wooden_table_02_1k.gltf",
+      "sourceSha256": "df65c35148280a06efcc06bfa75432bb13f29318e869597fc94f364ce2b55974",
+      "sourceFiles": [
+        {
+          "asset": "round_wooden_table_02",
+          "path": "original/round_wooden_table_02_1k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/round_wooden_table_02/round_wooden_table_02_1k.gltf",
+          "bytes": 2851,
+          "md5": "d0d30c21d878a5f1f36a96b33458aba0",
+          "sha256": "df65c35148280a06efcc06bfa75432bb13f29318e869597fc94f364ce2b55974"
+        },
+        {
+          "asset": "round_wooden_table_02",
+          "path": "original/textures/round_wooden_table_02_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/round_wooden_table_02/round_wooden_table_02_nor_gl_1k.jpg",
+          "bytes": 635637,
+          "md5": "0f04a60c2f59f09808b26eb594732eed",
+          "sha256": "34989b9a15753b964a4d9d6b2673c048ff2c14feedbe4e6adbeb4bf32be8bc8c"
+        },
+        {
+          "asset": "round_wooden_table_02",
+          "path": "original/textures/round_wooden_table_02_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/round_wooden_table_02/round_wooden_table_02_diff_1k.jpg",
+          "bytes": 470007,
+          "md5": "2f16277bfd0ff661de3245c11d0b556e",
+          "sha256": "9872acedc6be92ef232c581c8e9ce435e4aa0d8f5c4b75e4ce445995a3ef8c28"
+        },
+        {
+          "asset": "round_wooden_table_02",
+          "path": "original/textures/round_wooden_table_02_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/round_wooden_table_02/round_wooden_table_02_arm_1k.jpg",
+          "bytes": 677385,
+          "md5": "bd5ba146734d7aa0acdfcae0c66b727f",
+          "sha256": "613d051b4c4e093c5e65eec37d39f6f48ac5476e2cb1b59c4b034f308ef1a7ee"
+        },
+        {
+          "asset": "round_wooden_table_02",
+          "path": "original/round_wooden_table_02.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/round_wooden_table_02/round_wooden_table_02.bin",
+          "bytes": 135412,
+          "md5": "026ad1fd824b6eb38a4a260565471243",
+          "sha256": "fa9a0ed80be31d9160207913762cedc5de21d1cb37b01a5ae6caa23ce7a741b6"
+        }
+      ],
+      "sourceGeometryBytes": 135412,
+      "sourceGeometrySha256": "fa9a0ed80be31d9160207913762cedc5de21d1cb37b01a5ae6caa23ce7a741b6",
+      "bytes": 388080,
+      "gzipBytes": 313459,
+      "sha256": "4d10a33b1af05bfa207b3e1823f706f955656a087f4dbd3ebf7f329698767b73",
+      "triangles": 4254,
+      "bounds": {
+        "min": [
+          -0.3980890214443207,
+          -4.383679197417223e-09,
+          -0.3980890214443207
+        ],
+        "max": [
+          0.3980890214443207,
+          0.7460266351699829,
+          0.3980890214443207
+        ],
+        "size": [
+          0.7961780428886414,
+          0.7460266395536621,
+          0.7961780428886414
+        ]
+      },
+      "images": [
+        {
+          "name": "round_wooden_table_02_nor_gl_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "84be89d4156f2e2220d156606c81d72eed8d1a0ba408d159c47b887335dd373e",
+          "bytes": 86262,
+          "purpose": "normal"
+        },
+        {
+          "name": "round_wooden_table_02_diff_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "097a491d7804aac90a656230ee77767cd8713027c1e8c5202bf06c9ec9f0912f",
+          "bytes": 61892,
+          "purpose": "baseColor"
+        },
+        {
+          "name": "round_wooden_table_02_arm_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "437910d103908a1c77e25813b775e99fce34cffbf17f71e6a63780c89fa4cbd2",
+          "bytes": 102699,
+          "purpose": "occlusion-roughness-metallic"
+        }
+      ],
+      "bundle": "realistic-props",
+      "loadPolicy": "on-demand",
+      "materialPolicy": "preserve-authored-pbr",
+      "units": "metres",
+      "upAxis": "+Y",
+      "forwardAxis": "+Z",
+      "processing": "512px JPEG textures (normal quality 90, color/ARM quality 85); GLB embedding; original geometry BIN prefix, normals, UVs, nodes and PBR material records unchanged."
+    },
+    {
+      "id": "real-dining-chair",
+      "url": "/assets/models/real-dining-chair.glb",
+      "name": "Dining Chair 02",
+      "source": "https://polyhaven.com/a/dining_chair_02",
+      "sourceId": "dining_chair_02",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/polyhaven-realistic-props-LICENSE.txt",
+      "licenseEvidenceSha256": "176d8cca50ff5004dbc5e1e9ebb2513efa20e7095fb97ce494ef519d9c9e5b18",
+      "licenseEvidenceType": "publisher-publication",
+      "licenseEvidenceSources": [
+        "https://polyhaven.com/a/dining_chair_02",
+        "https://polyhaven.com/license"
+      ],
+      "sourcePath": "original/dining_chair_02_1k.gltf",
+      "sourceSha256": "88352a44a17319846f61fe03ce75c79fb1849aa508b6a262366c149c1bbd06b8",
+      "sourceFiles": [
+        {
+          "asset": "dining_chair_02",
+          "path": "original/dining_chair_02_1k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/dining_chair_02/dining_chair_02_1k.gltf",
+          "bytes": 2723,
+          "md5": "5aff75016e0943e84161de89dcc3ceb8",
+          "sha256": "88352a44a17319846f61fe03ce75c79fb1849aa508b6a262366c149c1bbd06b8"
+        },
+        {
+          "asset": "dining_chair_02",
+          "path": "original/dining_chair_02.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/dining_chair_02/dining_chair_02.bin",
+          "bytes": 544592,
+          "md5": "b7f8a91c0a5249d02de7885f3b242c4e",
+          "sha256": "c7f1ef858f73815176d2ab304472a69ccf6097e971e5258eb924a75f841d4af5"
+        },
+        {
+          "asset": "dining_chair_02",
+          "path": "original/textures/dining_chair_02_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dining_chair_02/dining_chair_02_nor_gl_1k.jpg",
+          "bytes": 119612,
+          "md5": "9c0e1003f9c8859a2e5c2c7f92a8f238",
+          "sha256": "348703512ca1215f8389e9108419c2d1a46537663db25f423c3ef900d20cfe61"
+        },
+        {
+          "asset": "dining_chair_02",
+          "path": "original/textures/dining_chair_02_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dining_chair_02/dining_chair_02_diff_1k.jpg",
+          "bytes": 91518,
+          "md5": "6b7b8e4ac0a3aad9ecdf314a97b0ef75",
+          "sha256": "343990f764790da1149485a422dee2bc6797945a6af06a37d02d7a7de041acf5"
+        },
+        {
+          "asset": "dining_chair_02",
+          "path": "original/textures/dining_chair_02_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/dining_chair_02/dining_chair_02_arm_1k.jpg",
+          "bytes": 162630,
+          "md5": "2b16c9ddb3ea83d200b02de54a4fdcb8",
+          "sha256": "0a81c0c886baa1e65d94fb6fb90ab4751bee319888ecf1c428ae62042d8a5b15"
+        }
+      ],
+      "sourceGeometryBytes": 544592,
+      "sourceGeometrySha256": "c7f1ef858f73815176d2ab304472a69ccf6097e971e5258eb924a75f841d4af5",
+      "bytes": 754184,
+      "gzipBytes": 627590,
+      "sha256": "df797747bd4c7a760da5db9969dc740b6edcf291a9eae7406688e2f4b97472c6",
+      "triangles": 22013,
+      "bounds": {
+        "min": [
+          -0.21678538620471954,
+          0.0012850910425186157,
+          -0.33102381229400635
+        ],
+        "max": [
+          0.21678538620471954,
+          0.9746627807617188,
+          0.24539630115032196
+        ],
+        "size": [
+          0.4335707724094391,
+          0.9733776897192001,
+          0.5764201134443283
+        ]
+      },
+      "images": [
+        {
+          "name": "dining_chair_02_nor_gl_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "beee3dbd924474a5ff80527d6e58c0bb44e3328412d081f03fda009c053f1523",
+          "bytes": 69058,
+          "purpose": "normal"
+        },
+        {
+          "name": "dining_chair_02_diff_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "480eccd76a8e30847f973a5ae1322842c7feb0a829a1a194767e53f196fb12ef",
+          "bytes": 53541,
+          "purpose": "baseColor"
+        },
+        {
+          "name": "dining_chair_02_arm_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "bc843275e5eb39b75bd2dd776239410e4ab453f92a745dbd52a2dbe1fd15ea4f",
+          "bytes": 85248,
+          "purpose": "occlusion-roughness-metallic"
+        }
+      ],
+      "bundle": "realistic-props",
+      "loadPolicy": "on-demand",
+      "materialPolicy": "preserve-authored-pbr",
+      "units": "metres",
+      "upAxis": "+Y",
+      "forwardAxis": "+Z",
+      "processing": "512px JPEG textures (normal quality 90, color/ARM quality 85); GLB embedding; original geometry BIN prefix, normals, UVs, nodes and PBR material records unchanged."
+    },
+    {
+      "id": "real-bench",
+      "url": "/assets/models/real-bench.glb",
+      "name": "Painted Wooden Bench",
+      "source": "https://polyhaven.com/a/painted_wooden_bench",
+      "sourceId": "painted_wooden_bench",
+      "authors": {
+        "Kirill Sannikov": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/polyhaven-realistic-props-LICENSE.txt",
+      "licenseEvidenceSha256": "176d8cca50ff5004dbc5e1e9ebb2513efa20e7095fb97ce494ef519d9c9e5b18",
+      "licenseEvidenceType": "publisher-publication",
+      "licenseEvidenceSources": [
+        "https://polyhaven.com/a/painted_wooden_bench",
+        "https://polyhaven.com/license"
+      ],
+      "sourcePath": "original/painted_wooden_bench_1k.gltf",
+      "sourceSha256": "2289ab82f3fe3045bf18f7b9541743d2c65b9f071cb34bbe424d2bc998f3e507",
+      "sourceFiles": [
+        {
+          "asset": "painted_wooden_bench",
+          "path": "original/painted_wooden_bench_1k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/painted_wooden_bench/painted_wooden_bench_1k.gltf",
+          "bytes": 2835,
+          "md5": "784a49250144aa5299a93c1f3b6968d7",
+          "sha256": "2289ab82f3fe3045bf18f7b9541743d2c65b9f071cb34bbe424d2bc998f3e507"
+        },
+        {
+          "asset": "painted_wooden_bench",
+          "path": "original/textures/painted_wooden_bench_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/painted_wooden_bench/painted_wooden_bench_diff_1k.jpg",
+          "bytes": 545216,
+          "md5": "60c7d0f34f52b1003345d318e35f468d",
+          "sha256": "9bc533313091ee71eaca5fa6334b71d27935d9d75311f64df6a53c28a67c435c"
+        },
+        {
+          "asset": "painted_wooden_bench",
+          "path": "original/textures/painted_wooden_bench_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/painted_wooden_bench/painted_wooden_bench_nor_gl_1k.jpg",
+          "bytes": 830104,
+          "md5": "08b74bebcff262c14beae35a4f7b3405",
+          "sha256": "a0f53740d77fc61aac01de0b7e1ae6109445d1756839f739ae31fdf10c9911f2"
+        },
+        {
+          "asset": "painted_wooden_bench",
+          "path": "original/textures/painted_wooden_bench_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/painted_wooden_bench/painted_wooden_bench_arm_1k.jpg",
+          "bytes": 586040,
+          "md5": "754ecc7f47b1e5d032e45e22334954f1",
+          "sha256": "878785565eeff706b8f1e4db7e3d794a544e9cf0e56cee424d9a271ab4ead47e"
+        },
+        {
+          "asset": "painted_wooden_bench",
+          "path": "original/painted_wooden_bench.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/painted_wooden_bench/painted_wooden_bench.bin",
+          "bytes": 25444,
+          "md5": "ed331b50f955852f007313c1a75c2e2d",
+          "sha256": "5799bcb20924105cccd6424de8cdb8e67eb57fddc19c395befeac634a7b2e013"
+        }
+      ],
+      "sourceGeometryBytes": 25444,
+      "sourceGeometrySha256": "5799bcb20924105cccd6424de8cdb8e67eb57fddc19c395befeac634a7b2e013",
+      "bytes": 269584,
+      "gzipBytes": 256457,
+      "sha256": "76ccfa0626dec17bc960e1613e18710035f82051a4f27d8599add08ba8e0bafe",
+      "triangles": 630,
+      "bounds": {
+        "min": [
+          -0.5760610699653625,
+          -0.0004994967021048069,
+          -0.25369879603385925
+        ],
+        "max": [
+          0.5888825058937073,
+          0.8887919783592224,
+          0.24284429848194122
+        ],
+        "size": [
+          1.1649435758590698,
+          0.8892914750613272,
+          0.4965430945158005
+        ]
+      },
+      "images": [
+        {
+          "name": "painted_wooden_bench_nor_gl_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "37819a0ffc5f001fd3e97d50d11aab0bd915429891e9819ea528a9b5d4d70eec",
+          "bytes": 99634,
+          "purpose": "normal"
+        },
+        {
+          "name": "painted_wooden_bench_diff_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "9a0c8b9940f64834821ad7a111d62632483b772e4ac0443823adaa39b51f9487",
+          "bytes": 70032,
+          "purpose": "baseColor"
+        },
+        {
+          "name": "painted_wooden_bench_arm_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "51ffa9ea43c5cb12515dfa273ac195381a1673d2dea297dc7f477b9c5a8232ee",
+          "bytes": 72682,
+          "purpose": "occlusion-roughness-metallic"
+        }
+      ],
+      "bundle": "realistic-props",
+      "loadPolicy": "on-demand",
+      "materialPolicy": "preserve-authored-pbr",
+      "units": "metres",
+      "upAxis": "+Y",
+      "forwardAxis": "+Z",
+      "processing": "512px JPEG textures (normal quality 90, color/ARM quality 85); GLB embedding; original geometry BIN prefix, normals, UVs, nodes and PBR material records unchanged."
+    },
+    {
+      "id": "real-day-bed",
+      "url": "/assets/models/real-day-bed.glb",
+      "name": "Vintage Day Bed",
+      "source": "https://polyhaven.com/a/vintage_day_bed",
+      "sourceId": "vintage_day_bed",
+      "authors": {
+        "Aron Łyczek": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/polyhaven-realistic-props-LICENSE.txt",
+      "licenseEvidenceSha256": "176d8cca50ff5004dbc5e1e9ebb2513efa20e7095fb97ce494ef519d9c9e5b18",
+      "licenseEvidenceType": "publisher-publication",
+      "licenseEvidenceSources": [
+        "https://polyhaven.com/a/vintage_day_bed",
+        "https://polyhaven.com/license"
+      ],
+      "sourcePath": "original/vintage_day_bed_1k.gltf",
+      "sourceSha256": "fb255992b6e651de9709b17c083a14b405e99cbc26774b31bf252e38cf9287fb",
+      "sourceFiles": [
+        {
+          "asset": "vintage_day_bed",
+          "path": "original/vintage_day_bed_1k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/vintage_day_bed/vintage_day_bed_1k.gltf",
+          "bytes": 2791,
+          "md5": "1e252681b0bfdbe4aff997f52ea95101",
+          "sha256": "fb255992b6e651de9709b17c083a14b405e99cbc26774b31bf252e38cf9287fb"
+        },
+        {
+          "asset": "vintage_day_bed",
+          "path": "original/textures/vintage_day_bed_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_day_bed/vintage_day_bed_nor_gl_1k.jpg",
+          "bytes": 856688,
+          "md5": "273b3d446777942c7df2154465789777",
+          "sha256": "2902f47f4778fce0667c2a1dbff7e2e861a0aed475668ea3fce8a485487598eb"
+        },
+        {
+          "asset": "vintage_day_bed",
+          "path": "original/textures/vintage_day_bed_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_day_bed/vintage_day_bed_diff_1k.jpg",
+          "bytes": 807128,
+          "md5": "240104a7390e20898a234297b9030fac",
+          "sha256": "78b7036a3254c780052b87ac962ac6ba212501821af03c56faa2d7a9ccb955ce"
+        },
+        {
+          "asset": "vintage_day_bed",
+          "path": "original/textures/vintage_day_bed_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/vintage_day_bed/vintage_day_bed_arm_1k.jpg",
+          "bytes": 678880,
+          "md5": "d7278e9bb05a5e612a71ef7b493e0be9",
+          "sha256": "b60e71c345fc1d16396a94a133390b4cdde5c05a38ebaadf2f5dc96be2895b11"
+        },
+        {
+          "asset": "vintage_day_bed",
+          "path": "original/vintage_day_bed.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/vintage_day_bed/vintage_day_bed.bin",
+          "bytes": 80292,
+          "md5": "845d084810f5361db23508b3903a0d45",
+          "sha256": "08172858c3f9d4225780013e4e9afd01bb9db42e17001fc6c790a183227ecf07"
+        }
+      ],
+      "sourceGeometryBytes": 80292,
+      "sourceGeometrySha256": "08172858c3f9d4225780013e4e9afd01bb9db42e17001fc6c790a183227ecf07",
+      "bytes": 417028,
+      "gzipBytes": 389236,
+      "sha256": "96927d314742bef51c210fffe53f40358d5504a330bb4489bb477f25f885d234",
+      "triangles": 2715,
+      "bounds": {
+        "min": [
+          -0.9862761497497559,
+          -6.4620744524290785e-06,
+          -0.4694533050060272
+        ],
+        "max": [
+          0.9862790703773499,
+          1.1273400783538818,
+          0.38532283902168274
+        ],
+        "size": [
+          1.9725552201271057,
+          1.1273465404283343,
+          0.85477614402771
+        ]
+      },
+      "images": [
+        {
+          "name": "vintage_day_bed_nor_gl_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "0fe43e540c377c8e665e8fe926d702a05e9bff6ab7b15b4d5e32472f55e6794e",
+          "bytes": 126356,
+          "purpose": "normal"
+        },
+        {
+          "name": "vintage_day_bed_diff_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "8f798f6d210a3c8c4736d82d46c0777c6ec0b12e4c4c5875129525e5433367dc",
+          "bytes": 118188,
+          "purpose": "baseColor"
+        },
+        {
+          "name": "vintage_day_bed_arm_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "1a182ad3b09259df0e07957a5649c6e4d0450a6e3cc3a61547a1fc942cbdf271",
+          "bytes": 90414,
+          "purpose": "occlusion-roughness-metallic"
+        }
+      ],
+      "bundle": "realistic-props",
+      "loadPolicy": "on-demand",
+      "materialPolicy": "preserve-authored-pbr",
+      "units": "metres",
+      "upAxis": "+Y",
+      "forwardAxis": "+Z",
+      "processing": "512px JPEG textures (normal quality 90, color/ARM quality 85); GLB embedding; original geometry BIN prefix, normals, UVs, nodes and PBR material records unchanged."
+    },
+    {
+      "id": "real-worktable",
+      "url": "/assets/models/real-worktable.glb",
+      "name": "Wooden Table 02",
+      "source": "https://polyhaven.com/a/wooden_table_02",
+      "sourceId": "wooden_table_02",
+      "authors": {
+        "Serhii Khromov": "All"
+      },
+      "license": "CC0-1.0",
+      "licenseFile": "/assets/licenses/polyhaven-realistic-props-LICENSE.txt",
+      "licenseEvidenceSha256": "176d8cca50ff5004dbc5e1e9ebb2513efa20e7095fb97ce494ef519d9c9e5b18",
+      "licenseEvidenceType": "publisher-publication",
+      "licenseEvidenceSources": [
+        "https://polyhaven.com/a/wooden_table_02",
+        "https://polyhaven.com/license"
+      ],
+      "sourcePath": "original/wooden_table_02_1k.gltf",
+      "sourceSha256": "bb38e301840cb629d72c43c83fdb7fb308518efe2d0bc01e1ed0e9a9e43ed9d3",
+      "sourceFiles": [
+        {
+          "asset": "wooden_table_02",
+          "path": "original/wooden_table_02_1k.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/wooden_table_02/wooden_table_02_1k.gltf",
+          "bytes": 2687,
+          "md5": "957c5d94784eed976cb4c6f0256a85e7",
+          "sha256": "bb38e301840cb629d72c43c83fdb7fb308518efe2d0bc01e1ed0e9a9e43ed9d3"
+        },
+        {
+          "asset": "wooden_table_02",
+          "path": "original/textures/wooden_table_02_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_table_02/wooden_table_02_diff_1k.jpg",
+          "bytes": 178379,
+          "md5": "07075a87918208594260c86c727e4396",
+          "sha256": "2334ac3e23d69222322515d9bad066b4e90d7d81989fe231b8fb12f39179ad9e"
+        },
+        {
+          "asset": "wooden_table_02",
+          "path": "original/textures/wooden_table_02_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_table_02/wooden_table_02_nor_gl_1k.jpg",
+          "bytes": 122129,
+          "md5": "63ac7819b624149e77ae9459472ded6d",
+          "sha256": "9470e08e5dab4ab6a7cafab2a488a50fb54fa8f38890e9032c39dcbf7f5846d2"
+        },
+        {
+          "asset": "wooden_table_02",
+          "path": "original/wooden_table_02.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/wooden_table_02/wooden_table_02.bin",
+          "bytes": 7576,
+          "md5": "a17c24e5366a0f7ad5522b88a4a9ea85",
+          "sha256": "52ed7cc67b3aa403375cf9bd18050e8cc21bcced6532a0183c1a733f0965df6d"
+        },
+        {
+          "asset": "wooden_table_02",
+          "path": "original/textures/wooden_table_02_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/wooden_table_02/wooden_table_02_arm_1k.jpg",
+          "bytes": 174545,
+          "md5": "8ee06c71a226e7f53b2ba53da79a55be",
+          "sha256": "b970a81e4b03f3b8a341c9eb639f112fff1782d681c846255ebc9073cd803ced"
+        }
+      ],
+      "sourceGeometryBytes": 7576,
+      "sourceGeometrySha256": "52ed7cc67b3aa403375cf9bd18050e8cc21bcced6532a0183c1a733f0965df6d",
+      "bytes": 246176,
+      "gzipBytes": 240165,
+      "sha256": "21d86cb5bb0563cc7a27abe3bc5c7199aa0c4b4ecac6d2c22bb9f6de6414d639",
+      "triangles": 196,
+      "bounds": {
+        "min": [
+          -0.5672082304954529,
+          -0.00012515290291048586,
+          -0.35301241278648376
+        ],
+        "max": [
+          0.5672084093093872,
+          0.7994177341461182,
+          0.35301241278648376
+        ],
+        "size": [
+          1.13441663980484,
+          0.7995428870490286,
+          0.7060248255729675
+        ]
+      },
+      "images": [
+        {
+          "name": "wooden_table_02_nor_gl_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "c3a9c536a0af394046565153e9a597442f9bb0327cb2f4803dd0fbd90fe5016c",
+          "bytes": 63818,
+          "purpose": "normal"
+        },
+        {
+          "name": "wooden_table_02_diff_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "30f4d7cc98addd6a642709eaf10638c1f0e474a2feb32dbc46581b0a201836f4",
+          "bytes": 88483,
+          "purpose": "baseColor"
+        },
+        {
+          "name": "wooden_table_02_arm_1k.jpg",
+          "width": 512,
+          "height": 512,
+          "mimeType": "image/jpeg",
+          "sha256": "1bbbd94fbe3a619c0fc1ab4fe422b7747e1256c05e46d88bc537f50880ed3c9e",
+          "bytes": 84590,
+          "purpose": "occlusion-roughness-metallic"
+        }
+      ],
+      "bundle": "realistic-props",
+      "loadPolicy": "on-demand",
+      "materialPolicy": "preserve-authored-pbr",
+      "units": "metres",
+      "upAxis": "+Y",
+      "forwardAxis": "+Z",
+      "processing": "512px JPEG textures (normal quality 90, color/ARM quality 85); GLB embedding; original geometry BIN prefix, normals, UVs, nodes and PBR material records unchanged."
+    }
+  ]
+}
