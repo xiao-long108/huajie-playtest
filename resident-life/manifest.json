@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "publisher": "Microsoft / Rocketbox; mobile derivatives by project",
+  "license": "MIT",
+  "licenseFile": "/resident-life/LICENSE.txt",
+  "licenseSha256": "17474e386e0b9e1a700cc3d06b2b0882a2c376d9c6b49c7f8274409b8f8d2352",
+  "sourceArchive": "art-source/characters/resident-life/source-lock.json",
+  "buildScript": "scripts/build-resident-life.py then scripts/package-resident-life.py",
+  "models": [
+    {
+      "id": "resident-repairer",
+      "url": "/resident-life/resident-repairer.glb",
+      "name": "Gardener_Male_01",
+      "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+      "sourcePath": "Assets/Avatars/Professions/Gardener_Male_01/Export/Gardener_Male_01.fbx",
+      "sourceSha256": "d49650b7a6d38da0d4954531722b3d404ec4ba12c66362471d8f2d4f8905e2f9",
+      "commit": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+      "license": "MIT",
+      "licenseFile": "/resident-life/LICENSE.txt",
+      "bytes": 247536,
+      "gzipBytes": 106344,
+      "sha256": "66c5a7e9011e27bb67e36f868e00ec0e12ef70ca1f9b0348326e43e69eb2f275",
+      "triangles": 3711,
+      "bounds": {
+        "min": [
+          -0.67413330078125,
+          -0.00079345703125,
+          -0.15802001953125
+        ],
+        "max": [
+          0.67413330078125,
+          1.8125,
+          0.20208740234375
+        ],
+        "size": [
+          1.3482666015625,
+          1.81329345703125,
+          0.360107421875
+        ]
+      },
+      "skins": 1,
+      "joints": 80,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Sitting"
+      ],
+      "animationRoles": {
+        "idle": "Idle",
+        "walk": "Walk",
+        "sit": "Sitting"
+      },
+      "rig": {
+        "head": "Head",
+        "hips": "Hips",
+        "leftHand": "Palm.L",
+        "rightHand": "Palm.R",
+        "forward": "+Z",
+        "up": "+Y"
+      },
+      "materialPolicy": "preserve-authored-pbr",
+      "loadPolicy": "on-demand",
+      "bundle": "resident-life",
+      "conversion": "Separate new Microsoft sources. Region-decimated meshes, 256px photos/128px alpha, own gender-correct native motions baked into source rest basis at10Hz, constant-track reduction. Authored smooth normals preserved as KHR_mesh_quantization normalized signed BYTE, 4-byte stride; no normal maps or Draco/KTX/WASM dependency.",
+      "removedRedundantChannels": 567,
+      "retainedChannels": 153,
+      "maxNormalQuantizationAngleErrorDegrees": 0.37636161408691826
+    },
+    {
+      "id": "resident-porter",
+      "url": "/resident-life/resident-porter.glb",
+      "name": "Wood_Male_01",
+      "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+      "sourcePath": "Assets/Avatars/Professions/Wood_Male_01/Export/Wood_Male_01.fbx",
+      "sourceSha256": "a484e5b447a7297cb12b71e5d2d7dee94d789d7a8d1a43db5afaef632f433e80",
+      "commit": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+      "license": "MIT",
+      "licenseFile": "/resident-life/LICENSE.txt",
+      "bytes": 233404,
+      "gzipBytes": 100748,
+      "sha256": "fb91f54de8fc726ef065f0a1374bc799a3ebd778b064b8c62ae78ab951909ac2",
+      "triangles": 3549,
+      "bounds": {
+        "min": [
+          -0.673095703125,
+          -0.00079345703125,
+          -0.13275146484375
+        ],
+        "max": [
+          0.673095703125,
+          1.8128662109375,
+          0.202392578125
+        ],
+        "size": [
+          1.34619140625,
+          1.81365966796875,
+          0.33514404296875
+        ]
+      },
+      "skins": 1,
+      "joints": 80,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Sitting"
+      ],
+      "animationRoles": {
+        "idle": "Idle",
+        "walk": "Walk",
+        "sit": "Sitting"
+      },
+      "rig": {
+        "head": "Head",
+        "hips": "Hips",
+        "leftHand": "Palm.L",
+        "rightHand": "Palm.R",
+        "forward": "+Z",
+        "up": "+Y"
+      },
+      "materialPolicy": "preserve-authored-pbr",
+      "loadPolicy": "on-demand",
+      "bundle": "resident-life",
+      "conversion": "Separate new Microsoft sources. Region-decimated meshes, 256px photos/128px alpha, own gender-correct native motions baked into source rest basis at10Hz, constant-track reduction. Authored smooth normals preserved as KHR_mesh_quantization normalized signed BYTE, 4-byte stride; no normal maps or Draco/KTX/WASM dependency.",
+      "removedRedundantChannels": 567,
+      "retainedChannels": 153,
+      "maxNormalQuantizationAngleErrorDegrees": 0.35867693420547686
+    },
+    {
+      "id": "resident-shopkeeper",
+      "url": "/resident-life/resident-shopkeeper.glb",
+      "name": "Female_Adult_09",
+      "source": "https://github.com/microsoft/Microsoft-Rocketbox",
+      "sourcePath": "Assets/Avatars/Adults/Female_Adult_09/Export/Female_Adult_09.fbx",
+      "sourceSha256": "a578ec65cabf169d7b13c0bb0a6c472e898857e81f6207b2af7f846d8b0d8523",
+      "commit": "0943055db6ec570bcef9f2c8b41c9e5467c808f9",
+      "license": "MIT",
+      "licenseFile": "/resident-life/LICENSE.txt",
+      "bytes": 310024,
+      "gzipBytes": 116974,
+      "sha256": "b7027afdef4cabf95f88127c2981a8fa12f01c248cfa426552296d08e666803a",
+      "triangles": 4305,
+      "bounds": {
+        "min": [
+          -0.60858154296875,
+          -0.00030517578125,
+          -0.19061279296875
+        ],
+        "max": [
+          0.60858154296875,
+          1.73504638671875,
+          0.11956787109375
+        ],
+        "size": [
+          1.2171630859375,
+          1.7353515625,
+          0.3101806640625
+        ]
+      },
+      "skins": 1,
+      "joints": 80,
+      "animations": [
+        "Idle",
+        "Walk",
+        "Sitting"
+      ],
+      "animationRoles": {
+        "idle": "Idle",
+        "walk": "Walk",
+        "sit": "Sitting"
+      },
+      "rig": {
+        "head": "Head",
+        "hips": "Hips",
+        "leftHand": "Palm.L",
+        "rightHand": "Palm.R",
+        "forward": "+Z",
+        "up": "+Y"
+      },
+      "materialPolicy": "preserve-authored-pbr",
+      "loadPolicy": "on-demand",
+      "bundle": "resident-life",
+      "conversion": "Separate new Microsoft sources. Region-decimated meshes, 256px photos/128px alpha, own gender-correct native motions baked into source rest basis at10Hz, constant-track reduction. Authored smooth normals preserved as KHR_mesh_quantization normalized signed BYTE, 4-byte stride; no normal maps or Draco/KTX/WASM dependency.",
+      "removedRedundantChannels": 548,
+      "retainedChannels": 172,
+      "maxNormalQuantizationAngleErrorDegrees": 0.3557548473465424
+    }
+  ],
+  "totalBytes": 790964,
+  "totalGzipBytes": 324066
+}

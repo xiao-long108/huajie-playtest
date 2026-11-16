@@ -1,0 +1,17 @@
+Street canopy — source and ownership record, 2026-11-14
+
+Source photographs: Tree Small 02 by Rico Cilliers / Poly Haven.
+Asset: https://polyhaven.com/a/tree_small_02
+Official asset license: https://polyhaven.com/license
+Photo/normal input license: CC0-1.0 (commercial modification and redistribution allowed).
+Original texture and source hashes remain in art-source/street-corner/nature/source-lock.json.
+
+New geometry is project-authored offline in Blender: upright low stem, six structural
+limbs, branching leaf clusters, two seeded crown forms. Original thin-branch source
+geometry is not misrepresented as retained. Project geometry/source code remains part
+of this game project. Compound-leaf atlases combine silhouettes and normal pixels
+extracted from the licensed source photographs; not a green sphere or screenshot.
+
+Published asset has one GLB, two named native roots and six spatial leaf groups per
+root, shared textures, MASK alphaCutoff .45 and authored smooth normals. No runtime
+primitive construction, external textures, Draco/KTX codec, or reference-game assets.

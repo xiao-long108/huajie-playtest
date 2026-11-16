@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "verifiedOn": "2026-11-14",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "tracks": [
+    {
+      "id": "day",
+      "file": "day-guitar.mp3",
+      "title": "A Small Fire Will Do (Calming Loop)",
+      "author": "Cal McEachern / Trex0n",
+      "sourcePage": "https://opengameart.org/content/a-small-fire-will-do-calming-loop",
+      "sourceFile": "https://opengameart.org/sites/default/files/a_small_fire_will_do.wav",
+      "sourceSha256": "1cb42057e724224d6047f651b95598f5c094caaaba47f6430dd5d540c09c4414",
+      "bytes": 512461,
+      "sha256": "141a126cdc071f66c1d0031d4b13cd0f740387078421c4205aa0b5304771992d",
+      "license": "CC0-1.0",
+      "durationSeconds": 64.0,
+      "adaptation": "Complete source loop transcoded to MP3 64kbps 44.1kHz; no extraction from the reference game."
+    },
+    {
+      "id": "night",
+      "file": "night-piano.mp3",
+      "title": "Forget Me Not (looped version)",
+      "author": "Kistol",
+      "sourcePage": "https://opengameart.org/content/forget-me-not",
+      "sourceFile": "https://opengameart.org/sites/default/files/forget_me_not_in_f_major_looped.ogg",
+      "sourceSha256": "2b9b9fc512c34d52b999ed1fd7e01f960f830f3defc5d2241f6e02f8be81ef77",
+      "bytes": 993324,
+      "sha256": "2fda3211e199466df8e087846da2dea42a1032f776fda0df405635adc88738e6",
+      "license": "CC0-1.0",
+      "durationSeconds": 124.1,
+      "adaptation": "Complete source loop transcoded to MP3 64kbps 44.1kHz; no extraction from the reference game."
+    }
+  ]
+}

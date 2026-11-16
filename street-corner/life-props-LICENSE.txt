@@ -1,0 +1,26 @@
+Huajie street-corner life props — authorship and texture source record
+Created for this project, 2026-11-14.
+
+The bicycle, hand truck, canvas load, detailed component meshes, UVs, layout,
+Blender scene and rebuild script were authored for this project. This is original
+offline-authored geometry, not a downloaded or scanned bicycle model. No assets,
+screenshots, text or files extracted from Nobody: The Turnaround are included.
+The project's owner retains the new authored source and output. No third-party
+model license is being represented as covering the newly authored geometry.
+
+One existing CC0 photograph is used for a small cloth-grain derivative:
+Concrete Floor Worn 001 — Dimitrios Savva / Rico Cilliers
+https://polyhaven.com/a/concrete_floor_worn_001
+Original local input: public/assets/textures/street-concrete.jpg
+Publisher asset license: https://polyhaven.com/license
+CC0 legal instrument: https://creativecommons.org/publicdomain/zero/1.0/
+
+The original local photograph remains byte-identical. A copied 64px image is
+converted to subdued tinted cloth grain and embedded in the GLB. Website logos,
+renders and descriptions are not embedded. Source hash is retained in the
+manifest and editable source folder. This is a source/permission evidence record,
+not an original publisher download-archive license document.
+
+The editable packed Blender file and all 134 named components are under
+art-source/street-corner/life-props/. Web output uses standard glTF 2.0 PBR and
+embedded PNG only; no external texture or special decoder is required.

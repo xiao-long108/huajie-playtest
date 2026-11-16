@@ -1,0 +1,1 @@
+Project-authored resident work props, 2026. Geometry, materials and source code are part of this game project. No third-party models or image inputs.

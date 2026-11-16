@@ -1,0 +1,22 @@
+花街 · 背景音乐来源 / Music credits
+Verified 2026-11-14 against each contributor's own OpenGameArt asset page.
+License elected for both works: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+
+A Small Fire Will Do (Calming Loop)
+By Cal McEachern / Trex0n
+Source: https://opengameart.org/content/a-small-fire-will-do-calming-loop
+Original file: https://opengameart.org/sites/default/files/a_small_fire_will_do.wav
+Local file: day-guitar.mp3
+Changes: complete source loop transcoded to MP3, 64kbps, 44.1kHz.
+
+Forget Me Not (looped version)
+By Kistol
+Source: https://opengameart.org/content/forget-me-not
+Original file: https://opengameart.org/sites/default/files/forget_me_not_in_f_major_looped.ogg
+Local file: night-piano.mp3
+Changes: complete source loop transcoded to MP3, 64kbps, 44.1kHz.
+
+These are independently licensed recordings, not music from Nobody / 大多数.
+Both contributors are credited even though CC0 does not require attribution.
+Source and output hashes are recorded in manifest.json.

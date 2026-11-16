@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "id": "real-corner-architecture",
+      "url": "/street-corner/architecture.glb",
+      "bytes": 3093228,
+      "gzipBytes": 705098,
+      "sha256": "ea3a842cc18241f638d1b7a567345aac72b7d6d0747d099e6e1c62a7f3a0ed1b",
+      "unit": "metre",
+      "upAxis": "+Y",
+      "worldOrigin": [
+        0,
+        0,
+        0
+      ],
+      "transform": "identity; preserve authored world coordinates",
+      "bounds": {
+        "min": [
+          -14.97,
+          -0.03,
+          -2.73
+        ],
+        "max": [
+          -4.545,
+          6.26883,
+          4.01
+        ]
+      },
+      "materialPolicy": "preserve-authored-pbr",
+      "licenseFile": "/street-corner/architecture-LICENSE.txt"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Anchor warehouse-crate",
+      "point": [
+        -13.3,
+        0.65,
+        4.25
+      ],
+      "approach": [
+        -13.3,
+        5.05
+      ]
+    },
+    {
+      "name": "Anchor job-board",
+      "point": [
+        -11.25,
+        1.5,
+        4.15
+      ],
+      "approach": [
+        -10.3,
+        4.75
+      ]
+    },
+    {
+      "name": "Anchor repair-post",
+      "point": [
+        -8.65,
+        1.18,
+        3.88
+      ],
+      "approach": [
+        -8.65,
+        4.75
+      ]
+    },
+    {
+      "name": "Anchor flower-box",
+      "point": [
+        -5.35,
+        0.6,
+        4.15
+      ],
+      "approach": [
+        -5.35,
+        4.95
+      ]
+    },
+    {
+      "name": "Anchor repair-work",
+      "point": [
+        -8.42,
+        0.04,
+        4.0
+      ],
+      "approach": [
+        -8.42,
+        4.0
+      ]
+    }
+  ],
+  "signMounts": {
+    "warehouse": {
+      "point": [
+        -13.3,
+        2.65,
+        3.72
+      ],
+      "width": 2.95,
+      "height": 0.5
+    },
+    "repair": {
+      "point": [
+        -8.65,
+        2.38,
+        3.86
+      ],
+      "width": 1.23,
+      "height": 0.25
+    },
+    "florist": {
+      "point": [
+        -6.3,
+        2.65,
+        3.72
+      ],
+      "width": 2.95,
+      "height": 0.5
+    }
+  },
+  "lowLevelBounds": [
+    {
+      "node": "Corner florist canopy",
+      "min": [
+        -7.655,
+        1.96778,
+        3.48131
+      ],
+      "max": [
+        -4.875,
+        1.99222,
+        3.49869
+      ]
+    },
+    {
+      "node": "Corner florist display",
+      "min": [
+        -7.48073,
+        0.05,
+        3.4225
+      ],
+      "max": [
+        -5.67606,
+        1.38774,
+        3.8975
+      ]
+    },
+    {
+      "node": "Corner florist floor",
+      "min": [
+        -7.86,
+        -0.02,
+        1.5
+      ],
+      "max": [
+        -4.65,
+        0.1,
+        3.645
+      ]
+    },
+    {
+      "node": "Corner florist interior",
+      "min": [
+        -7.375,
+        0.04,
+        2.2
+      ],
+      "max": [
+        -6.025,
+        1.06,
+        2.74948
+      ]
+    },
+    {
+      "node": "Corner florist upper wall",
+      "min": [
+        -7.78,
+        0.04,
+        -2.69
+      ],
+      "max": [
+        -4.73,
+        0.052,
+        1.5
+      ]
+    },
+    {
+      "node": "Corner florist upper wall details",
+      "min": [
+        -4.9175,
+        0.0797,
+        1.5475
+      ],
+      "max": [
+        -4.8025,
+        1.5125,
+        1.72638
+      ]
+    },
+    {
+      "node": "Corner florist wall",
+      "min": [
+        -7.86,
+        0.04,
+        1.42
+      ],
+      "max": [
+        -4.65,
+        0.72,
+        3.48
+      ]
+    },
+    {
+      "node": "Corner florist wall details",
+      "min": [
+        -7.84,
+        0.04,
+        2.83462
+      ],
+      "max": [
+        -4.655,
+        1.995,
+        3.79401
+      ]
+    },
+    {
+      "node": "Corner repair floor",
+      "min": [
+        -11.67,
+        -0.03,
+        -2.5
+      ],
+      "max": [
+        -7.92,
+        0.04,
+        3.45
+      ]
+    },
+    {
+      "node": "Corner repair service desk",
+      "min": [
+        -9.21721,
+        0.04987,
+        3.03699
+      ],
+      "max": [
+        -8.08279,
+        1.0075,
+        3.74301
+      ]
+    },
+    {
+      "node": "Corner repair wall",
+      "min": [
+        -11.67,
+        0.04,
+        -2.57
+      ],
+      "max": [
+        -7.92,
+        0.052,
+        3.26
+      ]
+    },
+    {
+      "node": "Corner repair wall details",
+      "min": [
+        -11.6775,
+        0.0375,
+        2.4796
+      ],
+      "max": [
+        -7.9325,
+        1.9975,
+        3.75802
+      ]
+    },
+    {
+      "node": "Corner repair workstation",
+      "min": [
+        -10.04,
+        0.05,
+        2.9175
+      ],
+      "max": [
+        -8.12,
+        1.95,
+        3.42888
+      ]
+    },
+    {
+      "node": "Corner shared fixtures",
+      "min": [
+        -9.5306,
+        1.94,
+        -2.195
+      ],
+      "max": [
+        -9.1694,
+        1.965,
+        -2.1439
+      ]
+    },
+    {
+      "node": "Corner warehouse floor",
+      "min": [
+        -14.95,
+        -0.02,
+        1.6
+      ],
+      "max": [
+        -11.72,
+        0.07,
+        3.3
+      ]
+    },
+    {
+      "node": "Corner warehouse interior",
+      "min": [
+        -14.125,
+        0.04,
+        1.69
+      ],
+      "max": [
+        -11.81,
+        1.079,
+        3.06
+      ]
+    },
+    {
+      "node": "Corner warehouse shutter closed",
+      "min": [
+        -14.38,
+        0.06852,
+        3.2675
+      ],
+      "max": [
+        -12.26,
+        1.978,
+        3.40164
+      ]
+    },
+    {
+      "node": "Corner warehouse shutter open",
+      "min": [
+        -14.38,
+        1.30352,
+        3.2675
+      ],
+      "max": [
+        -12.26,
+        1.9995,
+        3.40164
+      ]
+    },
+    {
+      "node": "Corner warehouse upper wall",
+      "min": [
+        -14.87,
+        0.04,
+        -2.73
+      ],
+      "max": [
+        -11.8,
+        0.052,
+        1.6
+      ]
+    },
+    {
+      "node": "Corner warehouse upper wall details",
+      "min": [
+        -11.9875,
+        0.0797,
+        1.6475
+      ],
+      "max": [
+        -11.8725,
+        1.5125,
+        1.82638
+      ]
+    },
+    {
+      "node": "Corner warehouse wall",
+      "min": [
+        -14.95,
+        0.04,
+        1.52
+      ],
+      "max": [
+        -11.72,
+        0.72,
+        3.3
+      ]
+    },
+    {
+      "node": "Corner warehouse wall details",
+      "min": [
+        -14.96,
+        0.0375,
+        2.99
+      ],
+      "max": [
+        -11.71,
+        1.5125,
+        3.50638
+      ]
+    }
+  ],
+  "keepClear": [
+    {
+      "name": "Lao Cao body (arms reach the service desk)",
+      "min": [
+        -9.3,
+        0.04,
+        3.79
+      ],
+      "max": [
+        -8.8,
+        1.85,
+        4.31
+      ]
+    },
+    {
+      "name": "Lao Zhou",
+      "min": [
+        -11.58,
+        0.04,
+        3.8
+      ],
+      "max": [
+        -10.92,
+        1.95,
+        4.5
+      ]
+    },
+    {
+      "name": "Left bench",
+      "min": [
+        -15.74,
+        0.04,
+        3.56
+      ],
+      "max": [
+        -14.55,
+        1.0,
+        4.08
+      ]
+    }
+  ],
+  "massing": {
+    "revision": 2,
+    "priorLowRoofPlanM2": 60.30299999999998,
+    "newShopfrontRoofPlanM2": 19.009299999999996,
+    "lowRoofPlanReduction": 0.6847702436031375,
+    "upwardProjectedRoofSurfaceM2": {
+      "lowShopfront": 25.14327153563943,
+      "upperRooms": 27.806253022507576
+    },
+    "shopfronts": {
+      "warehouse": {
+        "left": -14.95,
+        "right": -11.72,
+        "front": 3.3,
+        "back": 1.6,
+        "height": 3.36,
+        "roofDepth": 1.6999999999999997
+      },
+      "repair": {
+        "left": -11.67,
+        "right": -7.92,
+        "front": 3.26,
+        "back": 1.35,
+        "height": 2.98,
+        "workbenchForward": 0.27,
+        "roofDepth": 1.9099999999999997
+      },
+      "florist": {
+        "left": -7.86,
+        "right": -4.65,
+        "front": 3.48,
+        "back": 1.5,
+        "height": 3.2,
+        "roofDepth": 1.98
+      }
+    },
+    "setbackUpperRooms": {
+      "warehouse": {
+        "left": -14.87,
+        "right": -11.8,
+        "front": 1.6,
+        "back": -2.64,
+        "height": 5.45,
+        "windowX": -13.32,
+        "windowY": 4.3,
+        "windowWidth": 1.95,
+        "windowHeight": 1.05,
+        "roofBackDrop": 0.25
+      },
+      "florist": {
+        "left": -7.78,
+        "right": -4.73,
+        "front": 1.5,
+        "back": -2.6,
+        "height": 6.1,
+        "windowX": -6.25,
+        "windowY": 4.75,
+        "windowWidth": 1.52,
+        "windowHeight": 1.44,
+        "roofBackDrop": 0.65,
+        "sideWindows": [
+          {
+            "z": -0.2,
+            "y": 4.55,
+            "width": 0.68,
+            "height": 1.24
+          },
+          {
+            "z": -1.6,
+            "y": 4.76,
+            "width": 0.56,
+            "height": 0.82
+          }
+        ]
+      }
+    },
+    "middleRear": "unroofed service courtyard; original rear boundary z=-2.5 retained",
+    "measurement": "Plan footprints are measured from authored wall/roof edges. Upward surface sums actual triangle XZ projections including narrow caps; upper roof surfaces are reported separately, not claimed removed."
+  },
+  "passage": {
+    "floorY": 0.04,
+    "centreX": -10.46,
+    "clearWidth": 0.7,
+    "playerClearance": 0.24,
+    "centreRangeX": [
+      -10.57,
+      -10.35
+    ],
+    "frontZ": 3.45,
+    "rearZ": 1.25,
+    "courtyard": {
+      "minX": -11.6,
+      "maxX": -7.99,
+      "minZ": -2.43,
+      "maxZ": 1.25
+    },
+    "note": "Actual open doorways and level floor, no shadow plane or stairs across the route. Runtime may enable this route only with matching wall and furniture colliders.",
+    "walkCentreAreas": [
+      {
+        "name": "passage",
+        "minX": -10.57,
+        "maxX": -10.35,
+        "minZ": 1.0,
+        "maxZ": 4.15
+      },
+      {
+        "name": "courtyard",
+        "minX": -11.35,
+        "maxX": -8.23,
+        "minZ": -2.19,
+        "maxZ": 1.0
+      }
+    ],
+    "wallSegments": [
+      {
+        "name": "front left",
+        "min": [
+          -11.67,
+          0.04,
+          3.04
+        ],
+        "max": [
+          -10.81,
+          2.34,
+          3.34
+        ]
+      },
+      {
+        "name": "front right",
+        "min": [
+          -10.11,
+          0.04,
+          3.04
+        ],
+        "max": [
+          -9.465,
+          2.34,
+          3.34
+        ]
+      },
+      {
+        "name": "rear left",
+        "min": [
+          -11.67,
+          0.04,
+          1.25
+        ],
+        "max": [
+          -10.81,
+          2.82,
+          1.43
+        ]
+      },
+      {
+        "name": "rear right",
+        "min": [
+          -10.11,
+          0.04,
+          1.25
+        ],
+        "max": [
+          -7.92,
+          2.82,
+          1.43
+        ]
+      },
+      {
+        "name": "courtyard back",
+        "min": [
+          -11.59,
+          0.04,
+          -2.57
+        ],
+        "max": [
+          -7.99,
+          2.26,
+          -2.43
+        ]
+      }
+    ]
+  },
+  "states": {
+    "warehouseShutter": {
+      "openNode": "Corner warehouse shutter open",
+      "closedNode": "Corner warehouse shutter closed",
+      "mode": "enable exactly one node; do not translate"
+    }
+  },
+  "serviceDesk": {
+    "node": "Corner repair service desk",
+    "min": [
+      -9.21721,
+      0.04987,
+      3.03699
+    ],
+    "max": [
+      -8.08279,
+      1.0075,
+      3.74301
+    ],
+    "playerWorkStance": [
+      -8.42,
+      4.0
+    ],
+    "laocaoHandTarget": [
+      -8.77,
+      1.0,
+      3.71
+    ]
+  },
+  "source": "art-source/street-corner/architecture/street-corner-architecture.blend",
+  "rebuild": "art-source/street-corner/architecture/build_architecture.py",
+  "blenderVersion": "4.5.16 LTS",
+  "meshNodes": [
+    "Corner florist canopy",
+    "Corner florist display",
+    "Corner florist floor",
+    "Corner florist interior",
+    "Corner florist roof",
+    "Corner florist upper roof",
+    "Corner florist upper wall",
+    "Corner florist upper wall details",
+    "Corner florist wall",
+    "Corner florist wall details",
+    "Corner repair canopy",
+    "Corner repair floor",
+    "Corner repair roof",
+    "Corner repair service desk",
+    "Corner repair wall",
+    "Corner repair wall details",
+    "Corner repair workstation",
+    "Corner shared fixtures",
+    "Corner warehouse canopy",
+    "Corner warehouse floor",
+    "Corner warehouse interior",
+    "Corner warehouse roof",
+    "Corner warehouse shutter closed",
+    "Corner warehouse shutter open",
+    "Corner warehouse upper roof",
+    "Corner warehouse upper wall",
+    "Corner warehouse upper wall details",
+    "Corner warehouse wall",
+    "Corner warehouse wall details"
+  ],
+  "triangles": 42436,
+  "sourceAssets": [
+    {
+      "path": "public/assets/models/real-worktable.glb",
+      "sha256": "21d86cb5bb0563cc7a27abe3bc5c7199aa0c4b4ecac6d2c22bb9f6de6414d639"
+    },
+    {
+      "path": "public/assets/textures/street-concrete.jpg",
+      "sha256": "2861ce4ae7df738c728204f3a7bf932dad030b673a1f8857270951663ddb4551"
+    },
+    {
+      "path": "public/assets/textures/street-brick.jpg",
+      "sha256": "3fc35d764bc06950e285ed040e08530c3af9d4a49f3c024f5c138fe39fe224de"
+    },
+    {
+      "path": "public/assets/textures/cafe-wood.jpg",
+      "sha256": "7f4df20165e3acd08330aeba4b93392f344742867779564a9ff2d04e2cf740d8"
+    }
+  ]
+}
