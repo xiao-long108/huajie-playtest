@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "id": "real-neighborhood-district",
+      "url": "/neighborhood/neighborhood-district.glb",
+      "bytes": 753376,
+      "gzipBytes": 144776,
+      "sha256": "cc1e042d21e1d05b38f84e4ae728db584eebf5891375d274eee7d01d4f6f0fc4",
+      "triangles": 18181,
+      "unit": "metre",
+      "materialPolicy": "preserve-authored-pbr",
+      "worldOrigin": [
+        0,
+        0,
+        0
+      ],
+      "license": "Project-authored geometry with original CC0 photo derivatives",
+      "licenseFile": "/neighborhood/LICENSE.txt",
+      "normalStorage": "KHR_mesh_quantization signed BYTE normalized with 4-byte stride; authored normals retained",
+      "maxNormalQuantizationAngleErrorDegrees": 0.3556497013764659,
+      "unusedTextureCoordinateSetsRemoved": 88,
+      "verticesBeforeAttributeWeld": 30852,
+      "verticesAfterAttributeWeld": 28249
+    },
+    {
+      "id": "real-neighborhood-bag",
+      "url": "/neighborhood/neighborhood-bag.glb",
+      "bytes": 16072,
+      "gzipBytes": 7066,
+      "sha256": "eba6c2d49ede1f5b42bd86d7f62a30a8171d83296078cd3330da9d7e4f6edd96",
+      "triangles": 630,
+      "unit": "metre",
+      "materialPolicy": "preserve-authored-pbr",
+      "worldOrigin": [
+        0,
+        0,
+        0
+      ],
+      "license": "Project-authored geometry with original CC0 photo derivatives",
+      "licenseFile": "/neighborhood/LICENSE.txt",
+      "normalStorage": "KHR_mesh_quantization signed BYTE normalized with 4-byte stride; authored normals retained",
+      "maxNormalQuantizationAngleErrorDegrees": 0.3530876285189215,
+      "unusedTextureCoordinateSetsRemoved": 7,
+      "verticesBeforeAttributeWeld": 668,
+      "verticesAfterAttributeWeld": 476
+    }
+  ],
+  "sourceAssets": [
+    {
+      "path": "public/assets/textures/street-concrete.jpg",
+      "sha256": "2861ce4ae7df738c728204f3a7bf932dad030b673a1f8857270951663ddb4551",
+      "source": "https://polyhaven.com/a/concrete_floor_worn_001",
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "public/assets/textures/cafe-wood.jpg",
+      "sha256": "7f4df20165e3acd08330aeba4b93392f344742867779564a9ff2d04e2cf740d8",
+      "source": "https://polyhaven.com/a/wood_table_001",
+      "license": "CC0-1.0"
+    }
+  ],
+  "scope": "Two connected exterior districts; background NPC commerce changes no player inventory or wallet.",
+  "nativeSources": "art-source/neighborhood/*.blend",
+  "rebuild": "scripts/build-neighborhood.py",
+  "anchors": {
+    "scale": [
+      21.5,
+      1.045,
+      -3.84
+    ],
+    "wash": [
+      6.55,
+      1.055,
+      -10.13
+    ]
+  },
+  "states": {
+    "open": "Neighborhood market stock",
+    "closed": "Neighborhood market closed covers"
+  },
+  "placement": "district identity world transform; bag origin is actual hand grip"
+}

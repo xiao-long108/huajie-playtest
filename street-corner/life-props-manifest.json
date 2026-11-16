@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "id": "real-corner-life-props",
+      "url": "/street-corner/life-props.glb",
+      "bytes": 135588,
+      "gzipBytes": 50234,
+      "sha256": "462b11692b8bf6b4d0f719126f6ea613c934a28cf2b7af231284b34987b26a41",
+      "unit": "metre",
+      "upAxis": "+Y",
+      "worldOrigin": [
+        0,
+        0,
+        0
+      ],
+      "transform": "identity; preserve authored world-space coordinates",
+      "source": "Project-authored offline Blender geometry; existing Poly Haven CC0 cloth-grain input",
+      "license": "Project-authored geometry; CC0-1.0 texture derivative",
+      "licenseFile": "/street-corner/life-props-LICENSE.txt",
+      "licenseSha256": "b35c2a443f00aedc91f8c772336abaedd30eadc99c7240fc297175e130445e71",
+      "materialPolicy": "preserve-authored-pbr",
+      "bounds": {
+        "min": [
+          -12.956,
+          0.04,
+          3.41
+        ],
+        "max": [
+          -11.244,
+          1.082,
+          12.009
+        ]
+      }
+    }
+  ],
+  "components": {
+    "Bicycle": {
+      "min": [
+        -12.956,
+        0.04,
+        11.551
+      ],
+      "max": [
+        -11.244,
+        1.082,
+        12.009
+      ]
+    },
+    "Hand truck": {
+      "min": [
+        -12.42,
+        0.044,
+        3.41
+      ],
+      "max": [
+        -11.88,
+        1.04,
+        3.83
+      ]
+    }
+  },
+  "triangles": 6208,
+  "materials": 8,
+  "images": 1,
+  "runtimeBatches": 11,
+  "editableComponents": 134,
+  "sourceFiles": [
+    {
+      "path": "public/assets/textures/street-concrete.jpg",
+      "bytes": 38252,
+      "sha256": "2861ce4ae7df738c728204f3a7bf932dad030b673a1f8857270951663ddb4551",
+      "url": "https://polyhaven.com/a/concrete_floor_worn_001",
+      "license": "CC0-1.0",
+      "authors": [
+        "Dimitrios Savva",
+        "Rico Cilliers"
+      ]
+    }
+  ],
+  "rebuild": "art-source/street-corner/life-props/build_life_props.py then package_life_props.py",
+  "sourceScene": "art-source/street-corner/life-props/life-props-packed.blend",
+  "scope": "Two stationary scenery props. No bicycle riding or truck delivery mechanic is claimed."
+}

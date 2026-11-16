@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "id": "real-corner-tree",
+      "url": "/street-corner/nature-tree.glb",
+      "name": "Street canopy — narrow and spread native roots",
+      "source": "https://polyhaven.com/a/tree_small_02",
+      "authors": [
+        "Rico Cilliers — source photos",
+        "Project — authored urban canopy geometry"
+      ],
+      "license": "Project-authored geometry; CC0-1.0 photo derivatives",
+      "licenseFile": "/street-corner/nature-LICENSE.txt",
+      "licenseSha256": "a63956f340cdd527e0169a610bf5844d70c3b354776845b6eb632c6f35f4fb45",
+      "bytes": 639704,
+      "gzipBytes": 307372,
+      "sha256": "bd8975efde522db24af4ebfcbd31b9af266eb8e82460ca96f3cb6dd0bd771bff",
+      "bounds": {
+        "min": [
+          -2.056999921798706,
+          -0.014000000432133675,
+          -1.8680000305175781
+        ],
+        "max": [
+          1.9839999675750732,
+          5.7179999351501465,
+          1.8760000467300415
+        ]
+      },
+      "triangles": 11248,
+      "parts": [
+        {
+          "variant": "Urban canopy narrow",
+          "node": "Narrow leaf sector NE",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 900,
+          "triangles": 800,
+          "bounds": {
+            "min": [
+              -0.5559999942779541,
+              2.5420000553131104,
+              -0.5680000185966492
+            ],
+            "max": [
+              1.7200000286102295,
+              4.791999816894531,
+              1.63100004196167
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy narrow",
+          "node": "Narrow leaf sector NW",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 1080,
+          "triangles": 960,
+          "bounds": {
+            "min": [
+              -1.847000002861023,
+              2.499000072479248,
+              -0.5699999928474426
+            ],
+            "max": [
+              0.41200000047683716,
+              4.732999801635742,
+              1.7710000276565552
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy narrow",
+          "node": "Narrow leaf sector SE",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 540,
+          "triangles": 480,
+          "bounds": {
+            "min": [
+              -0.10999999940395355,
+              2.688999891281128,
+              -1.5920000076293945
+            ],
+            "max": [
+              1.7450000047683716,
+              4.620999813079834,
+              0.12800000607967377
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy narrow",
+          "node": "Narrow leaf sector SW",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 720,
+          "triangles": 640,
+          "bounds": {
+            "min": [
+              -1.534999966621399,
+              2.7049999237060547,
+              -1.559999942779541
+            ],
+            "max": [
+              0.4699999988079071,
+              4.750999927520752,
+              0.11400000005960464
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy narrow",
+          "node": "Narrow leaf sector top east",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 720,
+          "triangles": 640,
+          "bounds": {
+            "min": [
+              -0.42800000309944153,
+              3.953000068664551,
+              -0.9139999747276306
+            ],
+            "max": [
+              1.2029999494552612,
+              5.7179999351501465,
+              0.7889999747276306
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy narrow",
+          "node": "Narrow leaf sector top west",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 720,
+          "triangles": 640,
+          "bounds": {
+            "min": [
+              -1.2999999523162842,
+              4.01800012588501,
+              -1.1859999895095825
+            ],
+            "max": [
+              0.5289999842643738,
+              5.607999801635742,
+              1.149999976158142
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy narrow",
+          "node": "Narrow structural limbs",
+          "name": "Nature Bark structural branches",
+          "vertices": 708,
+          "triangles": 1096,
+          "bounds": {
+            "min": [
+              -1.1970000267028809,
+              2.2669999599456787,
+              -0.9670000076293945
+            ],
+            "max": [
+              1.1699999570846558,
+              5.127999782562256,
+              1.1770000457763672
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy narrow",
+          "node": "Narrow textured trunk",
+          "name": "Nature Bark trunk / source photograph",
+          "vertices": 100,
+          "triangles": 176,
+          "bounds": {
+            "min": [
+              -0.1770000010728836,
+              -0.014000000432133675,
+              -0.18000000715255737
+            ],
+            "max": [
+              0.1770000010728836,
+              4.520999908447266,
+              0.16899999976158142
+            ]
+          },
+          "below205cmBounds": {
+            "min": [
+              -0.1770000010728836,
+              -0.014000000432133675,
+              -0.18000000715255737
+            ],
+            "max": [
+              0.1770000010728836,
+              1.4529999494552612,
+              0.16899999976158142
+            ]
+          }
+        },
+        {
+          "variant": "Urban canopy spread",
+          "node": "Spread leaf sector NE",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 720,
+          "triangles": 640,
+          "bounds": {
+            "min": [
+              -0.0860000029206276,
+              2.4130001068115234,
+              -0.5799999833106995
+            ],
+            "max": [
+              1.9839999675750732,
+              4.7779998779296875,
+              1.680999994277954
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy spread",
+          "node": "Spread leaf sector NW",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 1260,
+          "triangles": 1120,
+          "bounds": {
+            "min": [
+              -2.056999921798706,
+              2.4660000801086426,
+              -0.5350000262260437
+            ],
+            "max": [
+              0.5429999828338623,
+              4.673999786376953,
+              1.8760000467300415
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy spread",
+          "node": "Spread leaf sector SE",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 720,
+          "triangles": 640,
+          "bounds": {
+            "min": [
+              -0.4180000126361847,
+              2.5789999961853027,
+              -1.7259999513626099
+            ],
+            "max": [
+              1.9830000400543213,
+              4.874000072479248,
+              -0.014000000432133675
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy spread",
+          "node": "Spread leaf sector SW",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 540,
+          "triangles": 480,
+          "bounds": {
+            "min": [
+              -1.7200000286102295,
+              2.4860000610351562,
+              -1.8680000305175781
+            ],
+            "max": [
+              0.10599999874830246,
+              4.664999961853027,
+              -0.17100000381469727
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy spread",
+          "node": "Spread leaf sector top east",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 1080,
+          "triangles": 960,
+          "bounds": {
+            "min": [
+              -0.5360000133514404,
+              3.934000015258789,
+              -1.2020000219345093
+            ],
+            "max": [
+              1.343000054359436,
+              5.686999797821045,
+              1.284999966621399
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy spread",
+          "node": "Spread leaf sector top west",
+          "name": "Nature Leaves / layered leaf clusters",
+          "vertices": 720,
+          "triangles": 640,
+          "bounds": {
+            "min": [
+              -1.3899999856948853,
+              4.078999996185303,
+              -1.1080000400543213
+            ],
+            "max": [
+              0.09399999678134918,
+              5.553999900817871,
+              1.1979999542236328
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy spread",
+          "node": "Spread structural limbs",
+          "name": "Nature Bark structural branches",
+          "vertices": 750,
+          "triangles": 1160,
+          "bounds": {
+            "min": [
+              -1.4520000219345093,
+              2.260999917984009,
+              -1.2660000324249268
+            ],
+            "max": [
+              1.3910000324249268,
+              5.111000061035156,
+              1.340999960899353
+            ]
+          },
+          "below205cmBounds": null
+        },
+        {
+          "variant": "Urban canopy spread",
+          "node": "Spread textured trunk",
+          "name": "Nature Bark trunk / source photograph",
+          "vertices": 100,
+          "triangles": 176,
+          "bounds": {
+            "min": [
+              -0.1770000010728836,
+              -0.014000000432133675,
+              -0.18000000715255737
+            ],
+            "max": [
+              0.1770000010728836,
+              4.520999908447266,
+              0.16899999976158142
+            ]
+          },
+          "below205cmBounds": {
+            "min": [
+              -0.1770000010728836,
+              -0.014000000432133675,
+              -0.18000000715255737
+            ],
+            "max": [
+              0.1770000010728836,
+              1.4529999494552612,
+              0.16899999976158142
+            ]
+          }
+        }
+      ],
+      "images": [
+        {
+          "name": "canopy-leaf-normal",
+          "mimeType": "image/jpeg",
+          "bytes": 18024,
+          "sha256": "0932bf6b8a43f37c1f4a8786be8e4bd96e6d7b7ea0b773f842c41a49a5f643c9"
+        },
+        {
+          "name": "canopy-leaf-atlas",
+          "mimeType": "image/png",
+          "bytes": 46499,
+          "sha256": "5f4b51a49a77be6321628a9b348000f3631545b7f2393fa3065cabf5b13bab06"
+        },
+        {
+          "name": "canopy-bark-nor_gl",
+          "mimeType": "image/jpeg",
+          "bytes": 22351,
+          "sha256": "37d234e39a8d5c7c82ce06763b04bcb3c4235ec9095ad12692e5c0114bd31247"
+        },
+        {
+          "name": "canopy-bark-diff",
+          "mimeType": "image/jpeg",
+          "bytes": 16756,
+          "sha256": "2d4167d2aeb37fe18522de95db4dc9029232d9d3c891015ca617c595ef8d172a"
+        }
+      ],
+      "sourceFiles": [
+        {
+          "path": "original/tree_small_02_1k.blend",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/1k/tree_small_02/tree_small_02_1k.blend",
+          "bytes": 63805841,
+          "md5": "d602d9e4df77457454ac427fd37d0b53",
+          "sha256": "af3fef6da3eb97057d9d4d3c4281c5944696b8d518715deddd8500482d30b1bd"
+        },
+        {
+          "path": "original/textures/tree_small_02_branch_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_branch_diff_1k.jpg",
+          "bytes": 449977,
+          "md5": "88b531469f5dba2fc44ca85df3776e7c",
+          "sha256": "a71b768e330c0c6cca097e30314f6b4e842ef724a1370f6aab14b4434eec64cb"
+        },
+        {
+          "path": "original/textures/tree_small_02_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_diff_1k.jpg",
+          "bytes": 863246,
+          "md5": "a7287a3f4e7f0d4577cb949b245f5b14",
+          "sha256": "4e0093f407b3a1120a36de49a48ebe5a465a9a9b77e361c7a3e66866e115e404"
+        },
+        {
+          "path": "original/textures/tree_small_02_leaves_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_leaves_diff_1k.jpg",
+          "bytes": 340003,
+          "md5": "315cbc2cebfb399e649ccd39112c109a",
+          "sha256": "261e7d7a5ac7d2e16ea8823ff8510be8f3f615999724232994039ad2885e5c36"
+        },
+        {
+          "path": "original/textures/tree_small_02_leaves_alpha_1k.png",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/tree_small_02/tree_small_02_leaves_alpha_1k.png",
+          "bytes": 264711,
+          "md5": "63199ba87a9e8928424bd8c3b8017bd0",
+          "sha256": "4f143e2dda8a6a572f427ac378b92255d21761e4611de0d26e21816c01aa533b"
+        },
+        {
+          "path": "original/textures/tree_small_02_branch_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_branch_nor_gl_1k.jpg",
+          "bytes": 581596,
+          "md5": "00a3eed0d4d28e7e890d9ec6ac0619af",
+          "sha256": "a2efae9e7fede259601188cd5cb7e561fc502bd87e04d862a9532b2d8e647a62"
+        },
+        {
+          "path": "original/textures/tree_small_02_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_nor_gl_1k.jpg",
+          "bytes": 1228646,
+          "md5": "115a20da8621cd3e034e9b1bbe574746",
+          "sha256": "9c83be074c950ea1b94c732c0c0291b53b9ba357f932d378bafe3ca3b4418871"
+        },
+        {
+          "path": "original/textures/tree_small_02_leaves_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/tree_small_02/tree_small_02_leaves_nor_gl_1k.jpg",
+          "bytes": 681604,
+          "md5": "b06c87e73f54d9654f66d67e9de7aa85",
+          "sha256": "8c72e04fb23e16ae1df79c01385a638473d1dd4dede3d51e83d70153c129f09b"
+        }
+      ],
+      "sourceManifestSha256": "aa9ce809c48190d02cc01f1f2cfbfe4ffb6483277601f535efcd346179c63f14",
+      "units": "metres",
+      "upAxis": "+Y",
+      "pivot": "root base Y=0; both variant roots at identity",
+      "loadPolicy": "one shared container and atlas; all seven runtime trees select one variant root",
+      "materialPolicy": "preserve native PBR; Leaves/leaf MASK doubleSided with true normals and aligned atlas normal data",
+      "processing": "Two project-authored street forms, full compound-leaf volume, six local crown groups, source photograph/silhouette/normal atlas, upright planter-safe stem. FLOAT position/normals .001 and UV .0001; geometry normals retained."
+    }
+  ],
+  "variants": [
+    {
+      "id": "narrow",
+      "node": "Urban canopy narrow",
+      "bounds": {
+        "min": [
+          -1.847000002861023,
+          -0.014000000432133675,
+          -1.5920000076293945
+        ],
+        "max": [
+          1.7450000047683716,
+          5.7179999351501465,
+          1.7710000276565552
+        ]
+      },
+      "triangles": 5432,
+      "drawCalls": 8,
+      "leafMinY": 2.499000072479248,
+      "lowTrunkMaxRadius": 0.18000000715255737,
+      "lowTrunkCheckedBelowY": 2.1,
+      "leafGroups": [
+        "Narrow leaf sector NE",
+        "Narrow leaf sector NW",
+        "Narrow leaf sector SE",
+        "Narrow leaf sector SW",
+        "Narrow leaf sector top east",
+        "Narrow leaf sector top west"
+      ],
+      "selection": "retain only this native root and its descendant MeshInstances; both roots share one container/atlas"
+    },
+    {
+      "id": "spread",
+      "node": "Urban canopy spread",
+      "bounds": {
+        "min": [
+          -2.056999921798706,
+          -0.014000000432133675,
+          -1.8680000305175781
+        ],
+        "max": [
+          1.9839999675750732,
+          5.686999797821045,
+          1.8760000467300415
+        ]
+      },
+      "triangles": 5816,
+      "drawCalls": 8,
+      "leafMinY": 2.4130001068115234,
+      "lowTrunkMaxRadius": 0.18000000715255737,
+      "lowTrunkCheckedBelowY": 2.1,
+      "leafGroups": [
+        "Spread leaf sector NE",
+        "Spread leaf sector NW",
+        "Spread leaf sector SE",
+        "Spread leaf sector SW",
+        "Spread leaf sector top east",
+        "Spread leaf sector top west"
+      ],
+      "selection": "retain only this native root and its descendant MeshInstances; both roots share one container/atlas"
+    }
+  ],
+  "sourceArchive": "art-source/street-canopy",
+  "sourceTextureArchive": "art-source/street-corner/nature",
+  "licenseFile": "/street-corner/nature-LICENSE.txt",
+  "licenseSha256": "a63956f340cdd527e0169a610bf5844d70c3b354776845b6eb632c6f35f4fb45",
+  "rebuild": [
+    "art-source/street-canopy/prepare_atlas.py",
+    "art-source/street-canopy/build_canopy.py",
+    "art-source/street-canopy/package_canopy.py"
+  ],
+  "boundary": "Original public/assets files and old source texture inputs remain unmodified."
+}

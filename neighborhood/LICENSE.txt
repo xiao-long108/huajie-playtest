@@ -1,0 +1,6 @@
+Neighborhood district geometry authored for this project.
+Photography inputs are unchanged CC0 Poly Haven assets already present in the project.
+Sources: https://polyhaven.com/ and https://polyhaven.com/license .
+Texture attribution/source hashes are recorded in manifest.json and art-source/neighborhood/source-lock.json.
+Existing urban-kit facade modules, tree and resident models remain separate unchanged project assets with their existing CC0/MIT notices.
+No model, texture, dialogue or music was extracted from the reference game.

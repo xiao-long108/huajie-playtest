@@ -1,0 +1,38 @@
+Huajie street-corner architecture — source and license record
+Verified 2026-11-14.
+
+New building geometry, fixtures, shop-layout composition, UVs, configuration and
+Blender authoring script were created for this project. No Nobody: The Turnaround
+models, textures, screenshots or extracted game files are included.
+
+The derivative embeds these existing project assets from Poly Haven, CC0 1.0:
+
+1. Wooden Table 02, Serhii Khromov
+   https://polyhaven.com/a/wooden_table_02
+   Existing input: public/assets/models/real-worktable.glb
+   The original 196-triangle photographed table mesh/UVs is retained; only copied
+   embedded PBR images are resized to 256px and encoded by Blender's GLB exporter.
+2. Concrete Floor Worn 001, Dimitrios Savva / Rico Cilliers
+   https://polyhaven.com/a/concrete_floor_worn_001
+   Existing input: public/assets/textures/street-concrete.jpg
+3. Brick Wall 001, Dimitrios Savva / Rob Tuytel
+   https://polyhaven.com/a/brick_wall_001
+   Existing input: public/assets/textures/street-brick.jpg
+4. Wood Table 001, Dimitrios Savva / Rico Cilliers
+   https://polyhaven.com/a/wood_table_001
+   Existing input: public/assets/textures/cafe-wood.jpg
+
+Publisher license: https://polyhaven.com/license
+Legal instrument: https://creativecommons.org/publicdomain/zero/1.0/
+The publisher's official license page permits commercial use, modification and
+redistribution of its assets. Website renders/logos/text are outside the asset
+license and are not embedded in this package. Attribution is retained voluntarily.
+This is a license evidence record, not an original source-archive license file.
+
+All four input files remain byte-identical and read-only in public/assets.
+Three small worn-paint derivatives use copied pixels from the concrete photograph;
+these derivative maps are embedded without changing the protected source JPEG.
+Input and output SHA-256, geometry bounds, component names and rebuild location
+are recorded in architecture-manifest.json. PBR maps are embedded in architecture.glb.
+The editable packed .blend and reconstruction inputs are under
+art-source/street-corner/architecture/ and are not shipped to the web client.

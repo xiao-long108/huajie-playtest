@@ -1,0 +1,30 @@
+{
+  "_scene-shared--lx29CeY.js": {
+    "file": "assets/scene-shared--lx29CeY.js",
+    "name": "scene-shared"
+  },
+  "index.html": {
+    "file": "assets/index-BnX5FAs1.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_scene-shared--lx29CeY.js"
+    ],
+    "dynamicImports": [
+      "src/engine/index.ts"
+    ],
+    "css": [
+      "assets/index-KHWv6Ki5.css"
+    ]
+  },
+  "src/engine/index.ts": {
+    "file": "assets/engine-B9pp--lW.js",
+    "name": "engine",
+    "src": "src/engine/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_scene-shared--lx29CeY.js"
+    ]
+  }
+}
