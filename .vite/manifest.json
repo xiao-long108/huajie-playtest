@@ -4,7 +4,7 @@
     "name": "scene-shared"
   },
   "index.html": {
-    "file": "assets/index-BnX5FAs1.js",
+    "file": "assets/index-C7gY3i1M.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -15,11 +15,11 @@
       "src/engine/index.ts"
     ],
     "css": [
-      "assets/index-KHWv6Ki5.css"
+      "assets/index-CjyY8_Uj.css"
     ]
   },
   "src/engine/index.ts": {
-    "file": "assets/engine-B9pp--lW.js",
+    "file": "assets/engine-CZw6tZJp.js",
     "name": "engine",
     "src": "src/engine/index.ts",
     "isDynamicEntry": true,
